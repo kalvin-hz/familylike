@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Familylike</title>
 </head>
 <body>
-<h1>huhu</h1>
+<div class="countdown-container">
+    <!-- The title can be changed to whatever you are counting down to -->
+    <h1 id="countdown-title">Grab a coffee, we'll be here soon!</h1>
+
+    <!-- This div will hold the timer boxes -->
+    <div id="timer">
+        <div class="time-box">
+            <span id="days">0</span>
+            <p>Days</p>
+        </div>
+        <div class="time-box">
+            <span id="hours">0</span>
+            <p>Hours</p>
+        </div>
+        <div class="time-box">
+            <span id="minutes">0</span>
+            <p>Minutes</p>
+        </div>
+        <div class="time-box">
+            <span id="seconds">0</span>
+            <p>Seconds</p>
+        </div>
+    </div>
+
+    <!-- This div will be shown when the countdown is over -->
+    <div id="expired-message" style="display: none;">
+        The new Site is loading...
+    </div>
+</div>
+
 </body>
+<script src="countdown.js"></script>
 </html>
