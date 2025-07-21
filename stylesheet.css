@@ -19,6 +19,24 @@ body {
     padding: 0 20px; /* Adds space on the sides, especially for mobile */
 }
 
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #222222;
+    margin-top: 8px;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+}
+
+.footer a {
+    font-size: 22px;
+    font-weight: bold;
+}
+
 /* --- Headings --- */
 h1, h2, h3, h4, h5, h6 {
     color: #ffffff; /* Pure white for high contrast */
