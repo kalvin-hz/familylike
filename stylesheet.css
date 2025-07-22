@@ -48,8 +48,7 @@ body {
 
 .polaroid {
     background: white;
-    box-shadow: 8px 4px 24px 4px darkgray;
-    border: 1px solid darkgrey;
+    box-shadow: 8px 4px 24px 4px #777777;
 }
 
 .polaroid:hover {
