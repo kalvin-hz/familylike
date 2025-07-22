@@ -37,6 +37,33 @@ body {
     font-weight: bold;
 }
 
+.polaroid-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 64px;
+    margin: 0;
+    padding: 0;
+}
+
+.polaroid {
+    background: white;
+    box-shadow: 8px 4px 24px 4px darkgray;
+    border: 1px solid darkgrey;
+}
+
+.polaroid:hover {
+    transform: scale(1.1);
+    transition-duration: 100ms;
+    transition-timing-function: ease-out;
+}
+
+.polaroid p {
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
 /* --- Headings --- */
 h1, h2, h3, h4, h5, h6 {
     color: #ffffff; /* Pure white for high contrast */

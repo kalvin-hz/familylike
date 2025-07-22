@@ -7,41 +7,53 @@
     <title>Familylike</title>
 </head>
 <body>
-<div class="countdown-container">
-    <!-- The title can be changed to whatever you are counting down to -->
-    <h1 id="countdown-title">Grab a coffee, we'll be here soon!</h1>
+<div>
+    <div class="countdown-container">
+        <!-- The title can be changed to whatever you are counting down to -->
+        <h1 id="countdown-title">Grab a coffee, we'll be here soon!</h1>
 
-    <!-- This div will hold the timer boxes -->
-    <div id="timer">
-        <div class="time-box">
-            <span id="days">0</span>
-            <p>Days</p>
+        <!-- This div will hold the timer boxes -->
+        <div id="timer">
+            <div class="time-box">
+                <span id="days">0</span>
+                <p>Days</p>
+            </div>
+            <div class="time-box">
+                <span id="hours">0</span>
+                <p>Hours</p>
+            </div>
+            <div class="time-box">
+                <span id="minutes">0</span>
+                <p>Minutes</p>
+            </div>
+            <div class="time-box">
+                <span id="seconds">0</span>
+                <p>Seconds</p>
+            </div>
         </div>
-        <div class="time-box">
-            <span id="hours">0</span>
-            <p>Hours</p>
+        <!-- This div will be shown when the countdown is over -->
+        <div id="expired-message" style="display: none;">
+            The new Site is loading...
         </div>
-        <div class="time-box">
-            <span id="minutes">0</span>
-            <p>Minutes</p>
-        </div>
-        <div class="time-box">
-            <span id="seconds">0</span>
-            <p>Seconds</p>
-        </div>
-    </div>
 
-    <!-- This div will be shown when the countdown is over -->
-    <div id="expired-message" style="display: none;">
-        The new Site is loading...
     </div>
+    <div class="polaroid-gallery">
+        <div class="polaroid">
+            <img src="https://placehold.co/300x200" alt="img">
+            <p>huhu</p>
+        </div>
+        <div class="polaroid">
+            <img src="https://placehold.co/300x200" alt="img">
+            <p>huhu</p>
+        </div>
+
 
     <div class="footer">
         <a href="#">Impressum</a>
         <a href="#">Datenschutz</a>
     </div>
 </div>
-
 </body>
+
 <script src="countdown.js"></script>
 </html>
