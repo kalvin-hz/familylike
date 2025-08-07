@@ -43,18 +43,21 @@ body {
     gap: 64px;
     margin: 0;
     padding: 0;
+    flex-wrap: wrap;
 }
 
 .polaroid {
     background: white;
     box-shadow: 8px 4px 24px 4px darkgray;
     border: 1px solid darkgrey;
+    transition-duration: 100ms;
 }
 
 .polaroid:hover {
     transform: scale(1.1);
     transition-duration: 100ms;
     transition-timing-function: ease-out;
+    text-decoration: none;
 }
 
 .polaroid p {
