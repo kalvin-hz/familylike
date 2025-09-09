@@ -2,7 +2,7 @@
 
 // Set the date we're counting down to.
 // NOTE: Months are 0-indexed, so 0 is January, 11 is December.
-const countdownDate = new Date("Aug 1, 2025 00:00:00").getTime();
+const countdownDate = new Date("Sep 18, 2025 00:00:00").getTime();
 
 // Get the elements from the HTML that we need to update.
 const daysEl = document.getElementById('days');
