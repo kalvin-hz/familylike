@@ -46,8 +46,13 @@ body {
     padding: 16px;
 }
 
+.polaroid-gallery a {
+    width: 20%;
+    min-width: 300px;
+}
+
 .polaroid {
-    background: white;
+    background: rgba(255, 255, 255, 1);
     box-shadow: 8px 4px 24px 4px #777777;
 }
 
@@ -59,10 +64,11 @@ body {
 
 .polaroid p {
     color: black;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
+    padding: 16px;
 }
 
 .polaroid img {
