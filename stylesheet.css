@@ -58,7 +58,7 @@ body {
 
 .polaroid:hover {
     transform: scale(1.02);
-    transition-duration: 0ms;
+    transition-duration: 50ms;
     transition-timing-function: ease-out;
 }
 
