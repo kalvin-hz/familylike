@@ -1,3 +1,42 @@
+/* --- Navigation Bar --- */
+.nav {
+    width: 100%;
+    background-color: #222222;
+    border-bottom: 1px solid #333333;
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(6px);
+}
+
+.nav img {
+    height: 48px;
+    width: auto;
+    display: block;
+}
+
+.nav img#logo {
+    margin-right: auto;
+}
+
+.nav a {
+    color: #e0e0e0;
+    font-weight: 600;
+    text-decoration: none;
+    margin-left: 1rem;
+}
+
+.nav a:hover,
+.nav a:focus {
+    color: #74c0fc;
+    text-decoration: underline;
+}
+
 /* --- Minimalist Dark Theme --- */
 /* A simple white-on-black stylesheet for common HTML tags. */
 
@@ -19,6 +58,8 @@ body {
     flex-grow: 1;
     flex-direction: column;
     align-items: center;
+    max-width: 1400px;
+    margin: 0 auto;
 }
 
 /* --- Content Container --- */
@@ -30,21 +71,31 @@ body {
 }
 
 .footer {
-    left: 0;
-    bottom: 0;
     width: 100%;
     background-color: #222222;
-    margin-top: 8px;
-    padding: 1rem 0;
+    border-top: 1px solid #333333;
+    padding: 12px 20px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    gap: 64px;
-    flex-shrink: 0;
+    gap: 2rem;
+    box-sizing: border-box;
+    flex-wrap: wrap;
 }
 
-.footer a {
-    font-size: 22px;
-    font-weight: bold;
+.footer a,
+.footer p {
+    color: #e0e0e0;
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    text-decoration: none;
+}
+
+.footer a:hover,
+.footer a:focus {
+    color: #74c0fc;
+    text-decoration: underline;
 }
 
 .polaroid-gallery {
@@ -52,30 +103,49 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     gap: 64px;
-    margin: 0;
-    padding: 0;
 }
 
 .polaroid-gallery a {
-    max-width: 300px;
-    background: rgba(255, 255, 255, 1);
-    box-shadow: 8px 4px 24px 4px #777777;
+    border-radius: 1rem;
+    position: relative;
+    max-width: 400px;
+    max-height: 300px;
+    transition: transform 100ms ease;
 }
 
 .polaroid-gallery a:hover {
-    transform: scale(1.02);
-    transition-duration: 50ms;
-    transition-timing-function: ease-out;
+    transform: scale(1.05);
     text-decoration: none;
+    box-shadow: 8px 4px 48px -16px rgba(255, 255, 255, 0.3);
 }
 
 .polaroid-gallery a p {
-    color: black;
-    font-size: 1.2rem;
+    color: white;
+    font-size: 1.6rem;
     font-weight: bold;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 1);
+
     text-align: center;
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-    padding: 1rem;
+
+    padding: 0;
+    margin: 0;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    /*top: 0;*/
+    bottom: 0;
+
+    /*background: rgba(0, 0, 0, 0.1);*/
+    border-radius: 1rem;
+}
+
+.polaroid-gallery a img {
+    border-radius: 1rem;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* --- Headings --- */

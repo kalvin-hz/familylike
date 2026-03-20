@@ -8,15 +8,51 @@
     <title>Familylike - Hauptseite</title>
 </head>
 <body>
+<div class="nav">
+    <img id="logo" src="media/img/logo.png" alt="Logo">
+    <a href="#">Home</a>
+    <a href="pages/team">Team</a>
+    <a href="pages/contact">Contact</a>
+</div>
 <div class="main-content">
+    <div class="countdown-container">
+        <!-- The title can be changed to whatever you are counting down to -->
+        <div class="typewriter">
+            <h1 id="countdown-title">We're still setting things up...</h1>
+        </div>
+
+        <!-- This div will hold the timer boxes -->
+        <div id="timer">
+            <div class="time-box">
+                <span id="days">0</span>
+                <p>Days</p>
+            </div>
+            <div class="time-box">
+                <span id="hours">0</span>
+                <p>Hours</p>
+            </div>
+            <div class="time-box">
+                <span id="minutes">0</span>
+                <p>Minutes</p>
+            </div>
+            <div class="time-box">
+                <span id="seconds">0</span>
+                <p>Seconds</p>
+            </div>
+        </div>
+        <!-- This div will be shown when the countdown is over -->
+        <div id="expired-message" style="display: none;">
+            The new Site is loading...
+        </div>
+    </div>
     <h1>Hauptseite Familylike & More</h1>
     <div class="polaroid-gallery">
         <a href="pages/besiedlung-laendlicher-raeume">
-            <img src="https://placehold.co/300x200" alt="img">
-            <p>Gesteuerte Belebung/Besiedelung der Ländlichen Räume DE/DK/NL</p>
+            <img src="media/img/eschenhof-potential.jpg" alt="img">
+            <p>Besiedelung der Ländlichen Räume</p>
         </a>
         <a href="pages/more">
-            <img src="https://placehold.co/300x200" alt="img">
+            <img src="media/img/meerkat.png" alt="img">
             <p>More</p>
         </a>
     </div>
@@ -24,8 +60,9 @@
 </div>
 
 <div class="footer">
-    <a href="#">Impressum</a>
-    <a href="#">Datenschutz</a>
+    <a href="pages/impressum">Impressum</a>
+    <a href="pages/impressum">Datenschutz</a>
+    <p>copyright</p>
 </div>
 </body>
 
