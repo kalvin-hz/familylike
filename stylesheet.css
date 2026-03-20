@@ -50,16 +50,19 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
     min-height: 100vh;
 }
 
 .main-content {
     display: flex;
     flex-grow: 1;
+    flex-shrink: 1;
     flex-direction: column;
     align-items: center;
+    width: 100%;
     max-width: 1400px;
-    margin: 0 auto;
+    margin: 0 1rem;
 }
 
 /* --- Content Container --- */
@@ -284,8 +287,8 @@ hr {
 
 /* --- Countdown Container --- */
 .countdown-container {
-    max-width: 800px;
-    padding: 20px;
+    width: 100%;
+    padding: 20px 0;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
