@@ -15,7 +15,10 @@ body {
 }
 
 .main-content {
-    flex: 1;
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* --- Content Container --- */
@@ -63,25 +66,16 @@ body {
     transform: scale(1.02);
     transition-duration: 50ms;
     transition-timing-function: ease-out;
+    text-decoration: none;
 }
 
-.polaroid {
-}
-
-.polaroid:hover {
-}
-
-.polaroid-gallery a div p {
+.polaroid-gallery a p {
     color: black;
     font-size: 1.2rem;
     font-weight: bold;
     text-align: center;
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
     padding: 1rem;
-}
-
-.polaroid img {
-    width: 100%;
 }
 
 /* --- Headings --- */
