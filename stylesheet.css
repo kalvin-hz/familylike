@@ -65,6 +65,17 @@ body {
     margin: 0 1rem;
 }
 
+.hero-video {
+    display: flex;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
 /* --- Content Container --- */
 /* This centers the content on larger screens for better readability */
 .flex-container {
@@ -289,11 +300,11 @@ hr {
 .countdown-container {
     width: 100%;
     padding: 20px 0;
-    margin: 0 auto;
+    margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-content: center;
+    align-items: center;
     text-align: center;
 }
 
