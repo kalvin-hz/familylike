@@ -347,3 +347,137 @@ hr {
     background-color: #333333;
     margin: 2rem 0;
 }
+/* Container & Grid Layout */
+.fl-compare-section {
+    padding: 4rem 2rem;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.fl-compare-header {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.fl-compare-title {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+.fl-compare-subtitle {
+    color: #a0a0a0; /* Adapted to dark theme muted text */
+    font-size: 1.1rem;
+}
+
+.fl-compare-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+}
+
+@media (min-width: 768px) {
+    .fl-compare-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Card Styling */
+.fl-card {
+    padding: 2.5rem 2rem;
+    border-radius: 12px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+.fl-card-usual {
+    background-color: #222222; /* Adapted to dark theme box background */
+    border: 1px solid #333333; /* Adapted to dark theme border */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Darkened shadow */
+}
+
+.fl-card-solution {
+    background-color: #222222; /* Adapted to dark theme box background */
+    border: 1px solid #2b8a3e; /* Adjusted to a dark-mode friendly green border */
+    box-shadow: 0 8px 15px rgba(43, 138, 62, 0.1);
+}
+
+/* Card Headers */
+.fl-card-header {
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid;
+}
+
+.fl-card-usual .fl-card-header {
+    border-bottom-color: #444444; /* Adapted to dark theme */
+}
+
+.fl-card-solution .fl-card-header {
+    border-bottom-color: #40c057; /* Adjusted to brighter green for contrast */
+}
+
+.fl-card-header h3 {
+    font-size: 1.5rem;
+    margin: 0 0 0.25rem 0;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.fl-card-header span {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #a0a0a0; /* Adapted to dark theme */
+}
+
+.fl-card-solution .fl-card-header span {
+    color: #69db7c; /* Adjusted to lighter green for contrast */
+    font-weight: bold;
+}
+
+/* Lists */
+.fl-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.fl-list li {
+    position: relative;
+    padding-left: 2rem;
+    margin-bottom: 1.25rem;
+    line-height: 1.6;
+    color: #e0e0e0;
+}
+
+/* Custom bullet points using pseudo-elements */
+.fl-card-usual .fl-list li::before {
+    content: '✕';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #ff6b6b; /* Adjusted to dark mode friendly red */
+    font-weight: bold;
+}
+
+.fl-card-solution .fl-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #69db7c; /* Adjusted to dark mode friendly green */
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+/* Hover State classes managed by JS */
+.fl-card.fl-active {
+    transform: translateY(-8px);
+}
+.fl-card-usual.fl-active {
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.6); /* Stronger dark shadow */
+}
+.fl-card-solution.fl-active {
+    box-shadow: 0 12px 20px rgba(64, 192, 87, 0.15); /* Subtle green glow */
+}
