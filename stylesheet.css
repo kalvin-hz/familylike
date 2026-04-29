@@ -317,9 +317,9 @@ hr {
 }
 
 .time-box {
-    background-color: #222222;
-    border: 1px solid #333333;
-    border-radius: 8px;
+    background-color: rgb(100 100 100 / 0.15);
+    border: 2px solid rgb(200 200 200 / 1);
+    border-radius: 2rem;
     padding: 20px;
     min-width: 120px;
 }
@@ -329,14 +329,14 @@ hr {
     display: block;
     font-size: 3rem;
     font-weight: 700;
-    color: #4dabf7; /* Blue color for the numbers */
+    color: rgb(200 200 200 / 1);
 }
 
 /* The label (e.g., "Days") */
 .time-box p {
     margin: 5px 0 0;
     font-size: 1rem;
-    color: #a0a0a0;
+    color: rgb(180 180 180 / 1);
     text-transform: uppercase;
     letter-spacing: 1px;
 }
