@@ -358,3 +358,14 @@ hr {
     background-color: #333333;
     margin: 2rem 0;
 }
+
+.social-media-logo {
+    width: 48px;
+    margin: 1rem;
+}
+
+.social-media-homepage-div {
+    display: flex;
+    width: 100%;
+    justify-content: start;
+}
