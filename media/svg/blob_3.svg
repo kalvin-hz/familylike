@@ -1,10 +1,10 @@
-<svg viewBox="0 0 800 600" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1280 720" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
     <path fill="white" d="
-    M800,0
-    L800,600
-    L0,600
-    C120,500 180,400 120,300
-    C60,200 140,120 80,0
+    M1280,0
+    L1280,720
+    L310,720
+    C310,720 180,650 220,400
+    C220,400 290,150 80,0
     Z
   "/>
 </svg>
