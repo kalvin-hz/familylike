@@ -1,0 +1,66 @@
+/* Styling for "Warum mit uns?" section */
+
+.why-us-section {
+    padding: 4rem 1rem;
+    width: 100%;
+    max-width: 1200px;
+    text-align: center;
+}
+
+.why-us-intro {
+    font-size: 1.1rem;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+}
+
+.comparison-container {
+    margin-top: 3rem;
+    flex-wrap: wrap;
+    text-align: left;
+    align-items: stretch;
+}
+
+/* Visually improved card styling */
+.comparison-card {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border: 1px solid #eeeeee;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.comparison-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-card.usual {
+    border-top: 4px solid #c7254e;
+}
+
+.comparison-card.with-us {
+    border-top: 4px solid #47a8a4;
+    background-color: #f4fbfb;
+}
+
+.comparison-card h3 {
+    margin-top: 0;
+}
+
+.comparison-card.usual h3 {
+    color: #c7254e;
+}
+
+.comparison-card.with-us h3 {
+    color: #47a8a4;
+}
+
+.comparison-card p {
+    flex-grow: 1;
+    margin-bottom: 0;
+}
