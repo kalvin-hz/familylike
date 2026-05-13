@@ -1,8 +1,156 @@
+/* RESET / BASE */
+.open-sans  {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+.barlow-thin {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+.barlow-extralight {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+.barlow-light {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+.barlow-regular {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.barlow-medium {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+.barlow-semibold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+.barlow-bold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+.barlow-extrabold {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+.barlow-black {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.barlow-thin-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+.barlow-extralight-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
+.barlow-light-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+.barlow-regular-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.barlow-medium-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+.barlow-semibold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}
+.barlow-bold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+.barlow-extrabold-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+}
+.barlow-black-italic {
+    font-family: "Barlow", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* VARIABLES */
+:root {
+    --color-primary: #181830;
+    --color-accent: whitesmoke;
+
+    --nav-padding: 20px 6%;
+    --max-width: 1200px;
+}
+
+/* GLOBAL NAVBAR */
+.navbar {
+    display: flex;
+    background-color: whitesmoke;
+    align-items: center;
+    justify-content: space-between;
+    padding: var(--nav-padding);
+    width: 100%;
+}
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #253251;
+}
+
+.logo img {
+    height: 70px;
+}
+
 /* --- Navigation Bar --- */
 .nav {
     width: 100%;
-    background-color: #222222;
-    border-bottom: 1px solid #333333;
+    background-color: whitesmoke;
+    border-bottom: 1px solid #dddddd;
     padding: 12px 20px;
     display: flex;
     align-items: center;
@@ -25,7 +173,8 @@
 }
 
 .nav a {
-    color: #e0e0e0;
+    color: #253251;
+    font-family: "Open Sans", sans-serif;
     font-weight: 600;
     text-decoration: none;
     margin-left: 1rem;
@@ -33,18 +182,15 @@
 
 .nav a:hover,
 .nav a:focus {
-    color: #74c0fc;
+    color: #47a8a4;
     text-decoration: underline;
 }
 
-/* --- Minimalist Dark Theme --- */
-/* A simple white-on-black stylesheet for common HTML tags. */
-
 /* --- Global Styles & Typography --- */
 body {
-    background-color: #121212; /* A very dark grey, easier on the eyes than pure black */
-    color: #e0e0e0; /* A light grey for body text */
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background-color: #ffffff; /* A clean white background */
+    color: #5f5f5f; /* A darker grey for text */
+    font-family: "Open Sans", sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -86,8 +232,8 @@ body {
 
 .footer {
     width: 100%;
-    background-color: #222222;
-    border-top: 1px solid #333333;
+    background-color: whitesmoke;
+    border-top: 1px solid #dddddd;
     padding: 12px 20px;
     display: flex;
     align-items: center;
@@ -99,7 +245,7 @@ body {
 
 .footer a,
 .footer p {
-    color: #e0e0e0;
+    color: #5f5f5f;
     font-size: 1rem;
     font-weight: 600;
     margin: 0;
@@ -108,7 +254,7 @@ body {
 
 .footer a:hover,
 .footer a:focus {
-    color: #74c0fc;
+    color: #47a8a4;
     text-decoration: underline;
 }
 
@@ -164,7 +310,7 @@ body {
 
 /* --- Headings --- */
 h1, h2, h3, h4, h5, h6 {
-    color: #ffffff; /* Pure white for high contrast */
+    color: #333333;
     font-weight: 600;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
@@ -189,19 +335,19 @@ p {
 }
 
 strong {
-    color: #ffffff;
+    color: #333333;
     font-weight: 600;
 }
 
 /* --- Links --- */
 a {
-    color: #4dabf7; /* A pleasant blue for links */
+    color: #233f5e;
     text-decoration: none; /* Remove the default underline */
     transition: color 0.2s ease-in-out;
 }
 
 a:hover, a:focus {
-    color: #74c0fc;
+    color: #47a8a4;
     text-decoration: underline; /* Add underline on hover for clarity */
 }
 
@@ -217,10 +363,10 @@ li {
 
 /* --- Blockquotes --- */
 blockquote {
-    border-left: 3px solid #4dabf7;
+    border-left: 3px solid #233f5e;
     margin-left: 0;
     padding-left: 1.5em;
-    color: #a0a0a0; /* Slightly muted text for quotes */
+    color: #5f5f5f;
     font-style: italic;
 }
 
@@ -231,8 +377,8 @@ pre, code {
 }
 
 pre {
-    background-color: #222222;
-    border: 1px solid #333333;
+    background-color: whitesmoke;
+    border: 1px solid #dddddd;
     border-radius: 6px;
     padding: 1em;
     overflow-x: auto; /* Allow horizontal scrolling for long code lines */
@@ -240,8 +386,8 @@ pre {
 
 /* Inline code */
 code {
-    background-color: #2c2c2c;
-    color: #ffcc99; /* A warm color for inline code */
+    background-color: #f1f1f1;
+    color: #c7254e;
     padding: 0.2em 0.4em;
     border-radius: 4px;
 }
@@ -255,27 +401,28 @@ pre > code {
 
 /* --- Forms & Buttons --- */
 button, input[type="submit"] {
-    background-color: #4dabf7;
-    color: #000000;
+    font-family: "Barlow", sans-serif;
+    background-color: #233f5e;
+    color: #ffffff;
     border: none;
-    border-radius: 6px;
-    padding: 10px 20px;
-    font-size: 1rem;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: 14px;
     font-weight: 600;
     cursor: pointer;
     transition: background-color 0.2s ease-in-out;
 }
 
 button:hover, input[type="submit"]:hover {
-    background-color: #74c0fc;
+    background-color: #47a8a4;
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    background-color: #222222;
-    color: #e0e0e0;
-    border: 1px solid #444444;
+    background-color: #ffffff;
+    color: #333333;
+    border: 1px solid #cccccc;
     border-radius: 6px;
     padding: 10px;
     width: 100%;
@@ -286,76 +433,20 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
     outline: none;
-    border-color: #4dabf7;
+    border-color: #233f5e;
 }
 
 /* --- Horizontal Rule --- */
 hr {
     border: none;
-    border-top: 1px solid #444444;
+    border-top: 1px solid #cccccc;
     margin: 2em 0;
-}
-
-/* --- Countdown Container --- */
-.countdown-container {
-    width: 100%;
-    padding: 20px 0;
-    margin: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-/* --- Timer Display --- */
-#timer {
-    display: flex;
-    justify-content: center;
-    gap: 1rem; /* Space between the boxes */
-    flex-wrap: wrap; /* Allows boxes to wrap on smaller screens */
-}
-
-.time-box {
-    background-color: rgb(100 100 100 / 0.15);
-    border: 2px solid rgb(200 200 200 / 1);
-    border-radius: 2rem;
-    padding: 20px;
-    min-width: 120px;
-}
-
-/* The large number (e.g., 365) */
-.time-box span {
-    display: block;
-    font-size: 3rem;
-    font-weight: 700;
-    color: rgb(200 200 200 / 1);
-}
-
-/* The label (e.g., "Days") */
-.time-box p {
-    margin: 5px 0 0;
-    font-size: 1rem;
-    color: rgb(180 180 180 / 1);
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
-/* --- Message for when the countdown ends --- */
-#expired-message {
-    color: #ffffff;
-    font-size: 3rem;
-    font-weight: 700;
-}
-
-#countdown-title {
-    margin-bottom: 1rem;
 }
 
 .divider {
     width: 100%;
     height: 1px;
-    background-color: #333333;
+    background-color: #dddddd;
     margin: 2rem 0;
 }
 
