@@ -130,7 +130,7 @@ main {
 /* VARIABLES */
 :root {
     --color-primary: #181830;
-    --color-accent: whitesmoke;
+    --color-accent: #F5F5F5FF;
     --color-dark-blue: #253251;
     --color-border-light: #dddddd;
     --color-hover: #47a8a4;
@@ -282,7 +282,7 @@ body {
 .footer a,
 .footer p {
     color: var(--color-text-dark);
-    font-size: 1rem;
+    font-size: 1.25rem;
     font-weight: 600;
     margin: 0;
     text-decoration: none;

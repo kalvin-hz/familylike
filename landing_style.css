@@ -59,7 +59,7 @@
     font-style: normal;
     color: #5f5f5f;
     margin-bottom: 25px;
-    font-size: 14px;
+    font-size: 1.25rem;
     line-height: 1.6;
     text-align: left;
 }
@@ -73,7 +73,7 @@
     padding: 12px 24px;
     border-radius: 25px;
     cursor: pointer;
-    font-size: 14px;
+    font-size: 1.25rem;
 }
 
 .hero-text button:hover {
