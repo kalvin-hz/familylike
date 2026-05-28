@@ -131,6 +131,19 @@ main {
 :root {
     --color-primary: #181830;
     --color-accent: whitesmoke;
+    --color-dark-blue: #253251;
+    --color-border-light: #dddddd;
+    --color-hover: #47a8a4;
+    --color-white: #ffffff;
+    --color-text-dark: #5f5f5f;
+    --color-shadow-white: rgba(255, 255, 255, 0.3);
+    --color-shadow-black: rgba(0, 0, 0, 1);
+    --color-heading: #333333;
+    --color-secondary-blue: #233f5e;
+    --color-code-bg: #f1f1f1;
+    --color-code-text: #c7254e;
+    --color-border-dark: #cccccc;
+
 
     --nav-padding: 20px 6%;
     --max-width: 1200px;
@@ -157,7 +170,7 @@ main {
     font-family: "Open Sans", sans-serif;
     font-weight: bold;
     font-size: 18px;
-    color: #253251;
+    color: var(--color-secondary-blue);
 }
 
 .logo img {
@@ -168,7 +181,7 @@ main {
 .nav {
     width: 100%;
     background-color: whitesmoke;
-    border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid var(--color-border-light);
     padding: 12px 20px;
     display: flex;
     align-items: center;
@@ -191,7 +204,7 @@ main {
 }
 
 .nav a {
-    color: #253251;
+    color: var(--color-dark-blue);
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
     text-decoration: none;
@@ -200,14 +213,14 @@ main {
 
 .nav a:hover,
 .nav a:focus {
-    color: #47a8a4;
+    color: var(--color-hover);
     text-decoration: underline;
 }
 
 /* --- Global Styles & Typography --- */
 body {
-    background-color: #ffffff; /* A clean white background */
-    color: #5f5f5f; /* A darker grey for text */
+    background-color: var(--color-white); /* A clean white background */
+    color: var(--color-text-dark); /* A darker grey for text */
     font-family: "Open Sans", sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -241,6 +254,10 @@ body {
     padding: 0;
 }
 
+.container {
+    padding: 1rem 1rem;
+}
+
 /* --- Content Container --- */
 /* This centers the content on larger screens for better readability */
 .flex-container {
@@ -252,7 +269,7 @@ body {
 .footer {
     width: 100%;
     background-color: whitesmoke;
-    border-top: 1px solid #dddddd;
+    border-top: 1px solid var(--color-border-light);
     padding: 12px 20px;
     display: flex;
     align-items: center;
@@ -264,7 +281,7 @@ body {
 
 .footer a,
 .footer p {
-    color: #5f5f5f;
+    color: var(--color-text-dark);
     font-size: 1rem;
     font-weight: 600;
     margin: 0;
@@ -273,7 +290,7 @@ body {
 
 .footer a:hover,
 .footer a:focus {
-    color: #47a8a4;
+    color: var(--color-hover);
     text-decoration: underline;
 }
 
@@ -329,7 +346,7 @@ body {
 
 /* --- Headings --- */
 h1, h2, h3, h4, h5, h6 {
-    color: #333333;
+    color: var(--color-heading);
     font-weight: 600;
     margin-top: 1.5em;
     margin-bottom: 0.5em;
@@ -354,19 +371,19 @@ p {
 }
 
 strong {
-    color: #333333;
+    color: var(--color-heading);
     font-weight: 600;
 }
 
 /* --- Links --- */
 a {
-    color: #233f5e;
+    color: var(--color-secondary-blue);
     text-decoration: none; /* Remove the default underline */
     transition: color 0.2s ease-in-out;
 }
 
 a:hover, a:focus {
-    color: #47a8a4;
+    color: var(--color-hover);
     text-decoration: underline; /* Add underline on hover for clarity */
 }
 
@@ -382,10 +399,10 @@ li {
 
 /* --- Blockquotes --- */
 blockquote {
-    border-left: 3px solid #233f5e;
+    border-left: 3px solid var(--color-dark-blue);
     margin-left: 0;
     padding-left: 1.5em;
-    color: #5f5f5f;
+    color: var(--color-text-dark);
     font-style: italic;
 }
 
@@ -397,7 +414,7 @@ pre, code {
 
 pre {
     background-color: whitesmoke;
-    border: 1px solid #dddddd;
+    border: 1px solid var(--color-border-light);
     border-radius: 6px;
     padding: 1em;
     overflow-x: auto; /* Allow horizontal scrolling for long code lines */
@@ -405,8 +422,8 @@ pre {
 
 /* Inline code */
 code {
-    background-color: #f1f1f1;
-    color: #c7254e;
+    background-color: var(--color-code-bg);
+    color: var(--color-code-text);
     padding: 0.2em 0.4em;
     border-radius: 4px;
 }
@@ -421,8 +438,8 @@ pre > code {
 /* --- Forms & Buttons --- */
 button, input[type="submit"] {
     font-family: "Barlow", sans-serif;
-    background-color: #233f5e;
-    color: #ffffff;
+    background-color: var(--color-secondary-blue);
+    color: var(--color-white);
     border: none;
     border-radius: 25px;
     padding: 12px 24px;
@@ -433,15 +450,15 @@ button, input[type="submit"] {
 }
 
 button:hover, input[type="submit"]:hover {
-    background-color: #47a8a4;
+    background-color: var(--color-hover);
 }
 
 input[type="text"],
 input[type="email"],
 textarea {
-    background-color: #ffffff;
-    color: #333333;
-    border: 1px solid #cccccc;
+    background-color: var(--color-white);
+    color: var(--color-heading);
+    border: 1px solid var(--color-border-dark);
     border-radius: 6px;
     padding: 10px;
     width: 100%;
@@ -452,20 +469,20 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 textarea:focus {
     outline: none;
-    border-color: #233f5e;
+    border-color: var(--color-secondary-blue);
 }
 
 /* --- Horizontal Rule --- */
 hr {
     border: none;
-    border-top: 1px solid #cccccc;
+    border-top: 1px solid var(--color-border-dark);
     margin: 2em 0;
 }
 
 .divider {
     width: 100%;
     height: 1px;
-    background-color: #dddddd;
+    background-color: var(--color-border-light);
     margin: 2rem 0;
 }
 
