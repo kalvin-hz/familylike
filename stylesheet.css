@@ -301,42 +301,76 @@ body {
     gap: 4rem;
 }
 
+/* 1. Initial entry state for the anchor tags */
 .polaroid-gallery a {
+    opacity: 0;
+    transform: translateX(100vw);
+    pointer-events: none;
+
     border-radius: 1rem;
     position: relative;
     max-width: 400px;
     max-height: 300px;
-    transition: transform 100ms ease;
 }
 
-.polaroid-gallery a:hover {
+/* 2. Entrance Animation (using forwards safely) */
+.polaroid-gallery.animate a {
+    animation: flyIn 0.8s cubic-bezier(0.25, 1, 0.5, 1) forwards;
+}
+
+/* 3. The Keyframe definition */
+@keyframes flyIn {
+    0% {
+        opacity: 0;
+        transform: translateX(100vw);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+        pointer-events: auto; /* Safely turn mouse back on here! */
+    }
+}
+
+/* =======================================================
+   HOVER ISOLATION: We shift the transition and hover
+   effects onto the elements inside the anchor tag.
+   ======================================================= */
+
+/* Setup the transition on the image and text inside the link */
+.polaroid-gallery a img,
+.polaroid-gallery a p {
+    transition: transform 200ms ease, box-shadow 200ms ease;
+}
+
+/* When the user hovers over the 'a' tag, scale up its children */
+.polaroid-gallery a:hover img {
     transform: scale(1.05);
-    text-decoration: none;
     box-shadow: 8px 4px 48px -16px rgba(255, 255, 255, 0.3);
 }
 
+.polaroid-gallery a:hover p {
+    transform: scale(1.05);
+    text-decoration: none;
+}
+
+/* Your existing paragraph styles (unaltered) */
 .polaroid-gallery a p {
     color: white;
     font-size: 1.6rem;
     font-weight: bold;
     text-shadow: 0 0 12px rgba(0, 0, 0, 1);
-
     text-align: center;
     font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, Courier, monospace;
-
     padding: 0;
     margin: 0;
-
     position: absolute;
     left: 0;
     right: 0;
-    /*top: 0;*/
     bottom: 0;
-
-    /*background: rgba(0, 0, 0, 0.1);*/
     border-radius: 1rem;
 }
 
+/* Your existing image styles (unaltered) */
 .polaroid-gallery a img {
     border-radius: 1rem;
     width: 100%;
