@@ -103,11 +103,11 @@
 
 @media (max-width: 900px) {
     .hero-text {
-        min-width: 300px;
+        min-width: 250px;
         max-width: 80%;
 
         padding: 2rem;
-        margin: 2rem;
+        margin: 2rem auto;
     }
 
     .hero-text h1 {
