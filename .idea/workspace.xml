@@ -1,0 +1,641 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8eb4a4ca-53b7-49a4-800d-1a99c72d41e6" name="Changes" comment="nextjs-migration">
+      <change afterPath="$PROJECT_DIR$/.idea/familylike.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AGENTS.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CLAUDE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/svg/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/svg/globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/svg/next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/svg/vercel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/svg/window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/estate/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/revitalisierung/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/social/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/datenschutz/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/impressum/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/more/estate/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/app/team/page.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/countdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/countdown.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/countdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/landing_style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_style_old.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/landingpage_old.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/eschenhof-potential.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/eschenhof-potential.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/linkedin-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/linkedin-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/img/meerkat.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/meerkat.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/svg/blob_3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/svg/blob_3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vid/background-vid-better-quality.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/vid/background-vid-better-quality.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vid/background-vid.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/vid/background-vid.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media/vid/meerkat.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/vid/meerkat.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/agriculture/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/agriculture/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/environmental/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/environmental/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/estate/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/flyin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/ecological-agriculture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/ecological-agriculture.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/environmental.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/environmental.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/estate.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/estate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/nachher.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/nachher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/pai.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/pai.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/social.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/social.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/vorher.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/vorher.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/pai/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/pai/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/revitalisierung/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/spot/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/spot/stylesheet.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/contact/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/datenschutz/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/impressum/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/more/equestrian/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/more/equestrian/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/more/estate/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/more/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/more/media/img/estate.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/estate2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/team/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="EmbeddingIndexingInfo">
+    <option name="cachedIndexableFilesCount" value="57" />
+    <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kalvin-hz&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kalvin-hz/familylike.git&quot;,
+    &quot;accountId&quot;: &quot;7d896f01-5880-4a8c-90b8-0eafbf47cbb9&quot;
+  }
+}</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="1.007342959464933" />
+      <entry key="MS500" value="1.6072710014525111" />
+      <entry key="S2" value="2.8241092953743934" />
+      <entry key="S5" value="3.4286897002706778" />
+      <entry key="S10" value="3.6933215086978497" />
+      <entry key="S30" value="3.9245084279061806" />
+      <entry key="S60" value="4.6510409503460295" />
+      <entry key="M2" value="7.444878365866421" />
+      <entry key="M5" value="15.985954632593277" />
+      <entry key="M10" value="29.522265062649158" />
+      <entry key="M15" value="43.49543788101543" />
+      <entry key="M30" value="96.30035258826518" />
+      <entry key="H1" value="231.0670900130711" />
+      <entry key="H2" value="460.88687609671086" />
+      <entry key="H4" value="710.9387620085682" />
+      <entry key="D1" value="1073.2241815899522" />
+      <entry key="W1" value="1157.216776859058" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="0.0" />
+      <entry key="S2" value="0.0" />
+      <entry key="S5" value="1.4139544611592076E-165" />
+      <entry key="S10" value="3.760258639736407E-83" />
+      <entry key="S30" value="3.3584890396170966E-28" />
+      <entry key="S60" value="1.9213277721885543E-14" />
+      <entry key="M2" value="1.6560649208760167E-7" />
+      <entry key="M5" value="0.0028975083533125516" />
+      <entry key="M10" value="0.089006841528709" />
+      <entry key="M15" value="0.30938893668396544" />
+      <entry key="M30" value="1.3960838584560387" />
+      <entry key="H1" value="4.946548789420105" />
+      <entry key="H2" value="13.08442586506333" />
+      <entry key="H4" value="23.376979896787308" />
+      <entry key="D1" value="39.47304312992269" />
+      <entry key="W1" value="43.319718901039785" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="0.9864677500222927" />
+      <entry key="MS500" value="1.5984189654470824" />
+      <entry key="S2" value="2.819642387929661" />
+      <entry key="S5" value="3.426465677401255" />
+      <entry key="S10" value="3.692114391056929" />
+      <entry key="S30" value="3.9236793698863437" />
+      <entry key="S60" value="4.646490279679233" />
+      <entry key="M2" value="7.434509841277566" />
+      <entry key="M5" value="15.977493891595635" />
+      <entry key="M10" value="29.601151341005927" />
+      <entry key="M15" value="43.794778863957035" />
+      <entry key="M30" value="97.68587071719396" />
+      <entry key="H1" value="236.00213665727307" />
+      <entry key="H2" value="473.9602112743991" />
+      <entry key="H4" value="734.3072582431574" />
+      <entry key="D1" value="1112.6951003269546" />
+      <entry key="W1" value="1200.5361687887753" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3BDbhDPmDzC0ZDF8mV3FuzXgse5" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "nextjs-migration",
+    "ignore.virus.scanning.warn.message": "true",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/khz/IdeaProjects/familylike/src/app",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.Next.js: server-side.executor": "Run",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editing.templates",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\khz\\IdeaProjects\\familylike\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\khz\IdeaProjects\familylike\src\app" />
+      <recent name="C:\Users\khz\IdeaProjects\familylike\public\img" />
+      <recent name="C:\Users\khz\IdeaProjects\familylike\public" />
+      <recent name="C:\Users\khz\IdeaProjects\familylike\pages\besiedlung-laendlicher-raeume\media\img" />
+      <recent name="C:\Users\khz\IdeaProjects\familylike" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\khz\IdeaProjects\familylike\public\img" />
+      <recent name="C:\Users\khz\IdeaProjects\familylike\public\vid" />
+      <recent name="C:\Users\khz\IdeaProjects\familylike\public\svg" />
+      <recent name="C:\Users\khz\IdeaProjects\familylike\pages\besiedlung-laendlicher-raeume\media\img" />
+      <recent name="C:\Users\khz\IdeaProjects\familylike\media\vid" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <module name="familylike" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <module name="familylike" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ccruntests" factoryName="Run Study Tests">
+      <module name="familylike" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="true" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <option name="studyTest" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8eb4a4ca-53b7-49a4-800d-1a99c72d41e6" name="Changes" comment="" />
+      <created>1774026704900</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1774026704900</updated>
+      <workItem from="1774026709572" duration="91000" />
+      <workItem from="1774026809477" duration="41000" />
+      <workItem from="1774026858381" duration="13309000" />
+      <workItem from="1774266448358" duration="111000" />
+      <workItem from="1774347183698" duration="3744000" />
+      <workItem from="1774369128660" duration="6000" />
+      <workItem from="1777566976679" duration="1283000" />
+      <workItem from="1777646437647" duration="223000" />
+      <workItem from="1777825276458" duration="649000" />
+      <workItem from="1777837316276" duration="76000" />
+      <workItem from="1778158979784" duration="893000" />
+      <workItem from="1778177278838" duration="199000" />
+      <workItem from="1778685659713" duration="8167000" />
+      <workItem from="1778708276340" duration="7171000" />
+      <workItem from="1778787008250" duration="40000" />
+      <workItem from="1778793838727" duration="116000" />
+      <workItem from="1778794492599" duration="1909000" />
+      <workItem from="1779280371465" duration="38000" />
+      <workItem from="1779973729166" duration="8280000" />
+      <workItem from="1779983813946" duration="114000" />
+      <workItem from="1779984004691" duration="190000" />
+      <workItem from="1780147015777" duration="887000" />
+      <workItem from="1780151018577" duration="296000" />
+      <workItem from="1780241823398" duration="1698000" />
+      <workItem from="1780261036817" duration="82000" />
+      <workItem from="1780409248724" duration="24000" />
+      <workItem from="1780880174734" duration="686000" />
+      <workItem from="1780904443431" duration="45000" />
+      <workItem from="1781005847001" duration="2415000" />
+      <workItem from="1781008659308" duration="2431000" />
+      <workItem from="1781011125377" duration="5010000" />
+    </task>
+    <task id="LOCAL-00001" summary="update">
+      <option name="closed" value="true" />
+      <created>1774031184531</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774031184531</updated>
+    </task>
+    <task id="LOCAL-00002" summary="big update">
+      <option name="closed" value="true" />
+      <created>1774038789084</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1774038789084</updated>
+    </task>
+    <task id="LOCAL-00003" summary="fix mobile sizing and layout">
+      <option name="closed" value="true" />
+      <created>1774039805491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774039805491</updated>
+    </task>
+    <task id="LOCAL-00004" summary="added nav to all pages so far">
+      <option name="closed" value="true" />
+      <created>1774039887927</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1774039887927</updated>
+    </task>
+    <task id="LOCAL-00005" summary="adjusted example video size">
+      <option name="closed" value="true" />
+      <created>1774039959298</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1774039959298</updated>
+    </task>
+    <task id="LOCAL-00006" summary="adjustments">
+      <option name="closed" value="true" />
+      <created>1774349925403</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774349925403</updated>
+    </task>
+    <task id="LOCAL-00007" summary="changed background vid">
+      <option name="closed" value="true" />
+      <created>1777567060929</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1777567060929</updated>
+    </task>
+    <task id="LOCAL-00008" summary="changed background vid again">
+      <option name="closed" value="true" />
+      <created>1777646652082</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1777646652082</updated>
+    </task>
+    <task id="LOCAL-00009" summary="changed background vid again again">
+      <option name="closed" value="true" />
+      <created>1777826641562</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1777826641562</updated>
+    </task>
+    <task id="LOCAL-00010" summary="changed background vid again again again">
+      <option name="closed" value="true" />
+      <created>1777837380508</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1777837380508</updated>
+    </task>
+    <task id="LOCAL-00011" summary="design refactoring">
+      <option name="closed" value="true" />
+      <created>1778689527760</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1778689527760</updated>
+    </task>
+    <task id="LOCAL-00012" summary="small overall fixes, mostly for landingpage.html">
+      <option name="closed" value="true" />
+      <created>1778711761666</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1778711761666</updated>
+    </task>
+    <task id="LOCAL-00013" summary="mobile fix landingpage.html">
+      <option name="closed" value="true" />
+      <created>1778712903411</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1778712903411</updated>
+    </task>
+    <task id="LOCAL-00014" summary="update spot page">
+      <option name="closed" value="true" />
+      <created>1778715455524</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1778715455524</updated>
+    </task>
+    <task id="LOCAL-00015" summary="countdown.css .time-box max-width is now 150px instead of 200px to have less wrapping on small screens">
+      <option name="closed" value="true" />
+      <created>1778793947039</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1778793947039</updated>
+    </task>
+    <task id="LOCAL-00016" summary="hopefully fixing linked in being pushed down by mobile browser ui">
+      <option name="closed" value="true" />
+      <created>1778795206112</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1778795206112</updated>
+    </task>
+    <task id="LOCAL-00017" summary="reduced video quality for potentially better loading times">
+      <option name="closed" value="true" />
+      <created>1778795760050</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1778795760050</updated>
+    </task>
+    <task id="LOCAL-00018" summary="reduced video quality for potentially better loading times">
+      <option name="closed" value="true" />
+      <created>1778795784821</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1778795784821</updated>
+    </task>
+    <task id="LOCAL-00019" summary="fixed landingpage.html viewport meta tag and centering of hero text on mobile view">
+      <option name="closed" value="true" />
+      <created>1779975118958</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1779975118958</updated>
+    </task>
+    <task id="LOCAL-00020" summary="made small changes to the spot page and turned all colors into variables in the global stylesheet.css">
+      <option name="closed" value="true" />
+      <created>1779977212018</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1779977212018</updated>
+    </task>
+    <task id="LOCAL-00021" summary="changed the global font-size">
+      <option name="closed" value="true" />
+      <created>1779980375888</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1779980375888</updated>
+    </task>
+    <task id="LOCAL-00022" summary="- redo the landingpage design&#10;- added animation to polaroid gallery items">
+      <option name="closed" value="true" />
+      <created>1779983612159</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1779983612159</updated>
+    </task>
+    <task id="LOCAL-00023" summary="estate mobile fix for wrapping">
+      <option name="closed" value="true" />
+      <created>1779983918732</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1779983918733</updated>
+    </task>
+    <task id="LOCAL-00024" summary="redirect home button in navbar to the landingpage.html">
+      <option name="closed" value="true" />
+      <created>1779984140450</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1779984140450</updated>
+    </task>
+    <task id="LOCAL-00025" summary="greyed out all pages">
+      <option name="closed" value="true" />
+      <created>1780242935623</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1780242935623</updated>
+    </task>
+    <task id="LOCAL-00026" summary="is bald soweit">
+      <option name="closed" value="true" />
+      <created>1780261111199</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1780261111199</updated>
+    </task>
+    <task id="LOCAL-00027" summary="estate 20.6">
+      <option name="closed" value="true" />
+      <created>1780880228491</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1780880228491</updated>
+    </task>
+    <task id="LOCAL-00028" summary="small image updates on the 6 subpage overview">
+      <option name="closed" value="true" />
+      <created>1781007759283</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1781007759283</updated>
+    </task>
+    <task id="LOCAL-00029" summary="new estate image">
+      <option name="closed" value="true" />
+      <created>1781008234906</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1781008234906</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="adjusted example video size" />
+    <MESSAGE value="adjustments" />
+    <MESSAGE value="changed background vid" />
+    <MESSAGE value="changed background vid again" />
+    <MESSAGE value="changed background vid again again" />
+    <MESSAGE value="changed background vid again again again" />
+    <MESSAGE value="design refactoring" />
+    <MESSAGE value="small overall fixes, mostly for landingpage.html" />
+    <MESSAGE value="mobile fix landingpage.html" />
+    <MESSAGE value="update spot page" />
+    <MESSAGE value="countdown.css .time-box max-width is now 150px instead of 200px to have less wrapping on small screens" />
+    <MESSAGE value="hopefully fixing linked in being pushed down by mobile browser ui" />
+    <MESSAGE value="reduced video quality for potentially better loading times" />
+    <MESSAGE value="fixed landingpage.html viewport meta tag and centering of hero text on mobile view" />
+    <MESSAGE value="made small changes to the spot page and turned all colors into variables in the global stylesheet.css" />
+    <MESSAGE value="changed the global font-size" />
+    <MESSAGE value="- redo the landingpage design&#10;- added animation to polaroid gallery items" />
+    <MESSAGE value="estate mobile fix for wrapping" />
+    <MESSAGE value="redirect home button in navbar to the landingpage.html" />
+    <MESSAGE value="greyed out all pages" />
+    <MESSAGE value="is bald soweit" />
+    <MESSAGE value="estate 20.6" />
+    <MESSAGE value="small image updates on the 6 subpage overview" />
+    <MESSAGE value="new estate image" />
+    <MESSAGE value="nextjs-migration" />
+    <option name="LAST_COMMIT_MESSAGE" value="nextjs-migration" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
