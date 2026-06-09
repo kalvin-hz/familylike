@@ -5,78 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8eb4a4ca-53b7-49a4-800d-1a99c72d41e6" name="Changes" comment="nextjs-migration">
-      <change afterPath="$PROJECT_DIR$/.idea/familylike.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AGENTS.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/CLAUDE.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/svg/file.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/svg/globe.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/svg/next.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/svg/vercel.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/svg/window.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/estate/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/revitalisierung/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/social/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/datenschutz/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/impressum/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/more/estate/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/team/page.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CNAME" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/countdown.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/countdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/landing_style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing_style_old.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/landingpage_old.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/eschenhof-potential.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/eschenhof-potential.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/linkedin-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/linkedin-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/img/meerkat.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/meerkat.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/svg/blob_3.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/svg/blob_3.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/vid/background-vid-better-quality.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/vid/background-vid-better-quality.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/vid/background-vid.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/vid/background-vid.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/media/vid/meerkat.mp4" beforeDir="false" afterPath="$PROJECT_DIR$/public/vid/meerkat.mp4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/agriculture/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/agriculture/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/environmental/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/environmental/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/estate/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/flyin.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/ecological-agriculture.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/ecological-agriculture.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/environmental.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/environmental.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/estate.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/estate.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/nachher.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/nachher.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/pai.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/pai.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/social.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/social.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/media/img/vorher.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/vorher.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/pai/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/pai/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/revitalisierung/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/spot/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/besiedlung-laendlicher-raeume/spot/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/contact/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/datenschutz/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/impressum/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/more/equestrian/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/more/equestrian/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/more/estate/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/more/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/contact/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/more/media/img/estate.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/estate2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/team/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/countdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/countdown.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -125,61 +54,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.007342959464933" />
-      <entry key="MS500" value="1.6072710014525111" />
-      <entry key="S2" value="2.8241092953743934" />
-      <entry key="S5" value="3.4286897002706778" />
-      <entry key="S10" value="3.6933215086978497" />
-      <entry key="S30" value="3.9245084279061806" />
-      <entry key="S60" value="4.6510409503460295" />
-      <entry key="M2" value="7.444878365866421" />
-      <entry key="M5" value="15.985954632593277" />
-      <entry key="M10" value="29.522265062649158" />
-      <entry key="M15" value="43.49543788101543" />
-      <entry key="M30" value="96.30035258826518" />
-      <entry key="H1" value="231.0670900130711" />
-      <entry key="H2" value="460.88687609671086" />
-      <entry key="H4" value="710.9387620085682" />
-      <entry key="D1" value="1073.2241815899522" />
-      <entry key="W1" value="1157.216776859058" />
+      <entry key="MS100" value="1.1527966023221463" />
+      <entry key="MS500" value="3.325720384726872" />
+      <entry key="S2" value="6.6289692964206655" />
+      <entry key="S5" value="7.928603675633308" />
+      <entry key="S10" value="8.530480276114412" />
+      <entry key="S30" value="9.94891046080346" />
+      <entry key="S60" value="11.411220617407528" />
+      <entry key="M2" value="14.418447176719724" />
+      <entry key="M5" value="23.109044066952173" />
+      <entry key="M10" value="36.74446115666227" />
+      <entry key="M15" value="50.73453081545199" />
+      <entry key="M30" value="103.33495568591232" />
+      <entry key="H1" value="237.69932285355284" />
+      <entry key="H2" value="467.5202360797689" />
+      <entry key="H4" value="718.1113105117433" />
+      <entry key="D1" value="1081.7639401702377" />
+      <entry key="W1" value="1166.145870187275" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
       <entry key="MS500" value="0.0" />
       <entry key="S2" value="0.0" />
-      <entry key="S5" value="1.4139544611592076E-165" />
-      <entry key="S10" value="3.760258639736407E-83" />
-      <entry key="S30" value="3.3584890396170966E-28" />
-      <entry key="S60" value="1.9213277721885543E-14" />
-      <entry key="M2" value="1.6560649208760167E-7" />
-      <entry key="M5" value="0.0028975083533125516" />
-      <entry key="M10" value="0.089006841528709" />
-      <entry key="M15" value="0.30938893668396544" />
-      <entry key="M30" value="1.3960838584560387" />
-      <entry key="H1" value="4.946548789420105" />
-      <entry key="H2" value="13.08442586506333" />
-      <entry key="H4" value="23.376979896787308" />
-      <entry key="D1" value="39.47304312992269" />
-      <entry key="W1" value="43.319718901039785" />
+      <entry key="S5" value="8.549547329001728E-169" />
+      <entry key="S10" value="9.246376364099333E-85" />
+      <entry key="S30" value="9.766266065135752E-29" />
+      <entry key="S60" value="1.0360811408690663E-14" />
+      <entry key="M2" value="1.2161118267892162E-7" />
+      <entry key="M5" value="0.002560844207209271" />
+      <entry key="M10" value="0.08367632939646331" />
+      <entry key="M15" value="0.29690961858989373" />
+      <entry key="M30" value="1.3676382840103996" />
+      <entry key="H1" value="4.895895830852883" />
+      <entry key="H2" value="13.017260823262479" />
+      <entry key="H4" value="23.31690328479094" />
+      <entry key="D1" value="39.45611800394144" />
+      <entry key="W1" value="43.31706491452899" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9864677500222927" />
-      <entry key="MS500" value="1.5984189654470824" />
-      <entry key="S2" value="2.819642387929661" />
-      <entry key="S5" value="3.426465677401255" />
-      <entry key="S10" value="3.692114391056929" />
-      <entry key="S30" value="3.9236793698863437" />
-      <entry key="S60" value="4.646490279679233" />
-      <entry key="M2" value="7.434509841277566" />
-      <entry key="M5" value="15.977493891595635" />
-      <entry key="M10" value="29.601151341005927" />
-      <entry key="M15" value="43.794778863957035" />
-      <entry key="M30" value="97.68587071719396" />
-      <entry key="H1" value="236.00213665727307" />
-      <entry key="H2" value="473.9602112743991" />
-      <entry key="H4" value="734.3072582431574" />
-      <entry key="D1" value="1112.6951003269546" />
-      <entry key="W1" value="1200.5361687887753" />
+      <entry key="MS100" value="0.37848243394930264" />
+      <entry key="MS500" value="3.061306961007853" />
+      <entry key="S2" value="6.552256985287747" />
+      <entry key="S5" value="7.896755130141477" />
+      <entry key="S10" value="8.51431492414522" />
+      <entry key="S30" value="9.943241761009329" />
+      <entry key="S60" value="11.406046588996768" />
+      <entry key="M2" value="14.40947156424594" />
+      <entry key="M5" value="23.101021364726186" />
+      <entry key="M10" value="36.81835045664454" />
+      <entry key="M15" value="51.021616037827464" />
+      <entry key="M30" value="104.69215264764776" />
+      <entry key="H1" value="242.58378888396174" />
+      <entry key="H2" value="480.52644042704543" />
+      <entry key="H4" value="741.4197405767379" />
+      <entry key="D1" value="1121.217932798834" />
+      <entry key="W1" value="1209.4626078800395" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -366,7 +295,7 @@
       <workItem from="1780904443431" duration="45000" />
       <workItem from="1781005847001" duration="2415000" />
       <workItem from="1781008659308" duration="2431000" />
-      <workItem from="1781011125377" duration="5010000" />
+      <workItem from="1781011125377" duration="5060000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -600,7 +529,15 @@
       <option name="project" value="LOCAL" />
       <updated>1781008234906</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="nextjs-migration">
+      <option name="closed" value="true" />
+      <created>1781016163457</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1781016163457</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
