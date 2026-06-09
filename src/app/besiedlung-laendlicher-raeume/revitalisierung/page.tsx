@@ -1,14 +1,29 @@
 import Link from "next/link";
+import ImageSlider from "@/components/ImageSlider";
 
 export default function Page() {
     return (
         <>
-            
+
             <div className="main-content">
-                <video width="100%" height="100%" controls>
-                    <source src="/vid/meerkat.mp4" type="video/mp4" />
+
+                {/* Isolate the video box */}
+                <div className="w-full block overflow-hidden">
+                    <video width="100%" height="100%" controls className="block">
+                        <source src="/vid/meerkat.mp4" type="video/mp4" />
                         Your Browser doesn't support Video Tags...
-                </video>
+                    </video>
+                </div>
+
+                {/* Tailwind v4 Explicit Spacing Box */}
+                <div className="w-full flex justify-center !my-8">
+                    <ImageSlider
+                        beforeImage={"/img/vorher.jpg"}
+                        afterImage={"/img/nachher.png"}
+                        beforeAlt={"before"}
+                        afterAlt={"after"}
+                    />
+                </div>
                 <div className="container">
                     <h1>Hey du Farm - Mach was aus dir</h1>
                     <p>Problem behafteter Standort? Keine gescheite Idee für was Neues?</p>
@@ -49,5 +64,5 @@ export default function Page() {
                 </div>
             </div>
         </>
-);
+    );
 }

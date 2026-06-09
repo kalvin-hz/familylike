@@ -30,48 +30,48 @@ export default function Page() {
             <div className="main-content">
                 <h1>FamilyLike</h1>
                 <div className="polaroid-gallery">
-                    <a href="#">
+                    <Link href="#">
                         <img src="/img/estate.png" alt="img" className="grayscale-100"/>
                         <p>
                             Estate<br/>
                             (geplant 20.6.2026)
                         </p>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                         <img src="/img/nachher.png" alt="img" className="grayscale-100"/>
                         <p>
                             Revitalisierung im Ländlichen Raum<br/>
                             (geplant 20.6.2026)
                         </p>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                         <img src="/img/pai.jpg" alt="img" className="grayscale-100"/>
                         <p>
                             Professional / Administrative / Institutional<br/>
                             (geplant 20.6.2026)
                         </p>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                         <img src="/img/ecological-agriculture.jpg" alt="img" className="grayscale-100"/>
                         <p>
                             Ecological Agriculture<br/>
                             (Is' bald soweit)
                         </p>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                         <img src="/img/social.jpg" alt="img" className="grayscale-100"/>
                         <p>
                             Social<br/>
                             (Is' bald soweit)
                         </p>
-                    </a>
-                    <a href="#">
+                    </Link>
+                    <Link href="#">
                         <img src="/img/environmental.png" alt="img" className="grayscale-100"/>
                         <p>
                             Environmental<br/>
                             (Is' bald soweit)
                         </p>
-                    </a>
+                    </Link>
                 </div>
             </div>
         </>
