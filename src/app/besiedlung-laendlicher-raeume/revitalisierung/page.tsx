@@ -7,7 +7,6 @@ export default function Page() {
 
             <div className="main-content">
 
-                {/* Isolate the video box */}
                 <div className="w-full block overflow-hidden">
                     <video width="100%" height="100%" controls className="block">
                         <source src="/vid/meerkat.mp4" type="video/mp4" />
@@ -15,15 +14,7 @@ export default function Page() {
                     </video>
                 </div>
 
-                {/* Tailwind v4 Explicit Spacing Box */}
-                <div className="w-full flex justify-center !my-8">
-                    <ImageSlider
-                        beforeImage={"/img/vorher.jpg"}
-                        afterImage={"/img/nachher.png"}
-                        beforeAlt={"before"}
-                        afterAlt={"after"}
-                    />
-                </div>
+
                 <div className="container">
                     <h1>Hey du Farm - Mach was aus dir</h1>
                     <p>Problem behafteter Standort? Keine gescheite Idee für was Neues?</p>
@@ -33,6 +24,22 @@ export default function Page() {
                     <button>Kontaktieren</button>
                 </div>
 
+                <div className={"w-full flex justify-center mt-8! mb-4!"}>
+                    <ImageSlider
+                        beforeImage={"/img/spot-vorher.jpg"}
+                        afterImage={"/img/spot-nachher.png"}
+                        beforeAlt={"before"}
+                        afterAlt={"after"}
+                    />
+                </div>
+                <div className={"w-full flex justify-center my-4!"}>
+                    <ImageSlider
+                        beforeImage={"/img/schuppen-vorher.jpg"}
+                        afterImage={"/img/schuppen-nachher.jpg"}
+                        beforeAlt={"before"}
+                        afterAlt={"after"}
+                    />
+                </div>
                 <div className="why-us-section container">
                     <h2>Warum mit uns?</h2>
                     <p className="why-us-intro">

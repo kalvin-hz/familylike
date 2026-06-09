@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb4a4ca-53b7-49a4-800d-1a99c72d41e6" name="Changes" comment="nextjs-migration">
-      <change afterPath="$PROJECT_DIR$/src/components/ImageSlider.tsx" afterDir="false" />
+    <list default="true" id="8eb4a4ca-53b7-49a4-800d-1a99c72d41e6" name="Changes" comment="slider update">
+      <change afterPath="$PROJECT_DIR$/public/img/schuppen-nachher.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/schuppen-vorher.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/nachher.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/spot-nachher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/img/vorher.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/img/spot-vorher.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/revitalisierung/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/revitalisierung/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,61 +60,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000000006912853" />
-      <entry key="MS500" value="1.0147636020352144" />
-      <entry key="S2" value="1.4292076724056026" />
-      <entry key="S5" value="2.0215499208353194" />
-      <entry key="S10" value="2.41464248939117" />
-      <entry key="S30" value="2.8780216954846214" />
-      <entry key="S60" value="3.594365677548239" />
-      <entry key="M2" value="5.64035854966237" />
-      <entry key="M5" value="13.487968339349106" />
-      <entry key="M10" value="26.88840922183111" />
-      <entry key="M15" value="38.96660654845874" />
-      <entry key="M30" value="76.05804427460048" />
-      <entry key="H1" value="176.1817268965909" />
-      <entry key="H2" value="392.2072631265517" />
-      <entry key="H4" value="673.9985898680552" />
-      <entry key="D1" value="1143.0949706398549" />
-      <entry key="W1" value="1260.117411897426" />
+      <entry key="MS100" value="1.0058392548774802" />
+      <entry key="MS500" value="1.3574962466003206" />
+      <entry key="S2" value="1.7752100593579665" />
+      <entry key="S5" value="2.05515662102107" />
+      <entry key="S10" value="2.8326987893446454" />
+      <entry key="S30" value="6.959249198716179" />
+      <entry key="S60" value="13.141549055953446" />
+      <entry key="M2" value="21.858755558747404" />
+      <entry key="M5" value="36.45013368145526" />
+      <entry key="M10" value="52.90600982440181" />
+      <entry key="M15" value="66.43079213171414" />
+      <entry key="M30" value="104.97684068111143" />
+      <entry key="H1" value="204.2559955589832" />
+      <entry key="H2" value="419.3329740411704" />
+      <entry key="H4" value="703.027352000635" />
+      <entry key="D1" value="1180.0020811177824" />
+      <entry key="W1" value="1299.6303894655368" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="6.539774630767788E-94" />
-      <entry key="S2" value="5.05697370663277E-24" />
-      <entry key="S5" value="4.803483223342401E-10" />
-      <entry key="S10" value="2.1916850193263672E-5" />
-      <entry key="S30" value="0.02799613338213715" />
-      <entry key="S60" value="0.17061712396435447" />
-      <entry key="M2" value="0.467198359256924" />
-      <entry key="M5" value="1.0710384123980192" />
-      <entry key="M10" value="1.7180643434828233" />
-      <entry key="M15" value="2.211826402244339" />
-      <entry key="M30" value="3.356981274693287" />
-      <entry key="H1" value="5.974557245389489" />
-      <entry key="H2" value="12.91783933724385" />
-      <entry key="H4" value="23.560212809926323" />
-      <entry key="D1" value="43.03796565478158" />
-      <entry key="W1" value="48.092159885581495" />
+      <entry key="MS100" value="8.346147702581584E-68" />
+      <entry key="MS500" value="3.839699287867793E-14" />
+      <entry key="S2" value="4.4266468063854526E-4" />
+      <entry key="S5" value="0.04574618105635759" />
+      <entry key="S10" value="0.228249078914881" />
+      <entry key="S30" value="0.9254811141642242" />
+      <entry key="S60" value="1.5615066049795818" />
+      <entry key="M2" value="2.189942895303633" />
+      <entry key="M5" value="3.0957354625252367" />
+      <entry key="M10" value="3.9596807008853663" />
+      <entry key="M15" value="4.569395166282914" />
+      <entry key="M30" value="5.8807215570938" />
+      <entry key="H1" value="8.567011369388103" />
+      <entry key="H2" value="15.491836971411214" />
+      <entry key="H4" value="26.176235883001116" />
+      <entry key="D1" value="45.92155368766058" />
+      <entry key="W1" value="51.07358110254615" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.6783021639052494" />
-      <entry key="MS500" value="0.9365986502677779" />
-      <entry key="S2" value="1.3800460237511103" />
-      <entry key="S5" value="1.9827248237033535" />
-      <entry key="S10" value="2.388522454369445" />
-      <entry key="S30" value="2.8924665022635296" />
-      <entry key="S60" value="3.750389446812622" />
-      <entry key="M2" value="6.089799997111643" />
-      <entry key="M5" value="14.537513353859033" />
-      <entry key="M10" value="28.584951760498317" />
-      <entry key="M15" value="41.15854523042088" />
-      <entry key="M30" value="79.398873941248" />
-      <entry key="H1" value="182.14252825480352" />
-      <entry key="H2" value="405.11287749023444" />
-      <entry key="H4" value="697.5492964977637" />
-      <entry key="D1" value="1186.1304200940526" />
-      <entry key="W1" value="1308.2091792835367" />
+      <entry key="MS100" value="0.7946226983838142" />
+      <entry key="MS500" value="1.2945240592167404" />
+      <entry key="S2" value="1.7544821015156793" />
+      <entry key="S5" value="2.0866974288912234" />
+      <entry key="S10" value="3.0425207303809043" />
+      <entry key="S30" value="7.852788713812842" />
+      <entry key="S60" value="14.66790509799477" />
+      <entry key="M2" value="24.018599569315878" />
+      <entry key="M5" value="39.52114868300784" />
+      <entry key="M10" value="56.84287342288705" />
+      <entry key="M15" value="70.97916389462634" />
+      <entry key="M30" value="110.84043859804814" />
+      <entry key="H1" value="212.80862197368498" />
+      <entry key="H2" value="434.8122235947548" />
+      <entry key="H4" value="729.1938571504305" />
+      <entry key="D1" value="1225.9210624624063" />
+      <entry key="W1" value="1350.7035692330026" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -144,7 +145,7 @@
     &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/khz/IdeaProjects/familylike/src/app&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/khz/IdeaProjects/familylike/public/img&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -163,8 +164,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\khz\IdeaProjects\familylike\src\app" />
       <recent name="C:\Users\khz\IdeaProjects\familylike\public\img" />
+      <recent name="C:\Users\khz\IdeaProjects\familylike\src\app" />
       <recent name="C:\Users\khz\IdeaProjects\familylike\public" />
       <recent name="C:\Users\khz\IdeaProjects\familylike\pages\besiedlung-laendlicher-raeume\media\img" />
       <recent name="C:\Users\khz\IdeaProjects\familylike" />
@@ -300,7 +301,7 @@
       <workItem from="1780904443431" duration="45000" />
       <workItem from="1781005847001" duration="2415000" />
       <workItem from="1781008659308" duration="2431000" />
-      <workItem from="1781011125377" duration="9390000" />
+      <workItem from="1781011125377" duration="9766000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -550,14 +551,21 @@
       <option name="project" value="LOCAL" />
       <updated>1781016242921</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="slider update">
+      <option name="closed" value="true" />
+      <created>1781020583507</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1781020583507</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="adjusted example video size" />
     <MESSAGE value="adjustments" />
     <MESSAGE value="changed background vid" />
     <MESSAGE value="changed background vid again" />
@@ -582,7 +590,8 @@
     <MESSAGE value="small image updates on the 6 subpage overview" />
     <MESSAGE value="new estate image" />
     <MESSAGE value="nextjs-migration" />
-    <option name="LAST_COMMIT_MESSAGE" value="nextjs-migration" />
+    <MESSAGE value="slider update" />
+    <option name="LAST_COMMIT_MESSAGE" value="slider update" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

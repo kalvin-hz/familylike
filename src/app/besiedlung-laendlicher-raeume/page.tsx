@@ -38,7 +38,7 @@ export default function Page() {
                         </p>
                     </Link>
                     <Link href="#">
-                        <img src="/img/nachher.png" alt="img" className="grayscale-100"/>
+                        <img src="/img/spot-nachher.png" alt="img" className="grayscale-100"/>
                         <p>
                             Revitalisierung im Ländlichen Raum<br/>
                             (geplant 20.6.2026)
