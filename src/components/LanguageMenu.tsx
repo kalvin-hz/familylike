@@ -59,11 +59,11 @@ export default function LanguageMenu() {
                         onClick={() => selectLanguage(lang)}
                         disabled={!isOpen}
                         className={`
-              absolute z-10 flex h-12 w-12 items-center justify-center 
-              rounded-full bg-white text-xl shadow-lg border border-gray-100
-              transition-all duration-300 ease-out hover:scale-110 hover:bg-gray-50
-              ${isOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-50 pointer-events-none'}
-            `}
+                            absolute z-10 flex h-12 w-12 items-center justify-center 
+                            rounded-full bg-white text-xl shadow-lg border border-gray-100
+                            transition-all duration-300 ease-out hover:scale-110 hover:bg-gray-50
+                            ${isOpen ? 'opacity-100 scale-100' : 'opacity-0 scale-50 pointer-events-none'}
+                        `}
                         style={{
                             transform: `translate(${x}px, ${y}px)`,
                         }}
@@ -79,10 +79,10 @@ export default function LanguageMenu() {
             <button
                 onClick={toggleMenu}
                 className={`
-          relative z-20 flex h-16 w-16 items-center justify-center 
-          rounded-full bg-white text-3xl shadow-xl border-2 border-indigo-500
-          transition-transform duration-300 active:scale-95 focus:outline-none
-        `}
+                    relative z-20 flex h-16 w-16 items-center justify-center 
+                    rounded-full bg-white text-3xl shadow-xl border-2 border-indigo-500
+                    transition-transform duration-300 active:scale-95 focus:outline-none
+                `}
             >
                 <span className="select-none">{currentLang.flag}</span>
             </button>

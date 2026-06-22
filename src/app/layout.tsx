@@ -6,6 +6,7 @@ import "./landing_style.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Viewport } from "next";
+import MobileNavbar from "@/components/MobileNavbar";
 
 const geistSans = Geist({
     variable: "--font-geist-sans",
@@ -38,6 +39,7 @@ export default function RootLayout({
         <html lang="en">
             <body>
                 <Navbar />
+                <MobileNavbar />
                 {children}
                 <Footer />
             </body>

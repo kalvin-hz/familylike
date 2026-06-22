@@ -50,6 +50,20 @@
     @theme inline {
         --color-background: var(--background);
         --color-foreground: var(--foreground);
+        --color-primary: var(--color-primary);
+        --color-accent: var(--color-accent);
+        --color-dark-blue: var(--color-dark-blue);
+        --color-border-light: var(--color-border-light);
+        --color-hover: var(--color-hover);
+        --color-white: var(--color-white);
+        --color-text-dark: var(--color-text-dark);
+        --color-shadow-white: var(--color-shadow-white);
+        --color-shadow-black: var(--color-shadow-black);
+        --color-heading: var(--color-heading);
+        --color-secondary-blue: var(--color-secondary-blue);
+        --color-code-bg: var(--color-code-bg);
+        --color-code-text: var(--color-code-text);
+        --color-border-dark: var(--color-border-dark);
         /*--font-sans: var(--font-geist-sans);*/
         /*--font-mono: var(--font-geist-mono);*/
     }
@@ -442,7 +456,7 @@
 
     /* --- Paragraphs & Text Elements --- */
     p {
-        margin-bottom: 1.25em;
+        /*margin-bottom: 1.25em;*/
     }
 
     strong {
@@ -464,12 +478,11 @@
 
     /* --- Lists --- */
     ul, ol {
-        padding-left: 20px;
-        margin-bottom: 1em;
+        padding-left: 0;
     }
 
     li {
-        margin-bottom: 0.5em;
+        margin-bottom: 0;
     }
 
     /* --- Blockquotes --- */
@@ -516,7 +529,7 @@
         background-color: var(--color-secondary-blue);
         color: var(--color-white);
         border: none;
-        border-radius: 25px;
+        border-radius: 12px;
         padding: 12px 24px;
         font-size: 14px;
         font-weight: 600;
