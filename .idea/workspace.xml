@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb4a4ca-53b7-49a4-800d-1a99c72d41e6" name="Changes" comment="language menu is now in footer">
-      <change afterPath="$PROJECT_DIR$/src/components/MobileNavbar.tsx" afterDir="false" />
+    <list default="true" id="8eb4a4ca-53b7-49a4-800d-1a99c72d41e6" name="Changes" comment="added MobileNavbar.tsx">
+      <change afterPath="$PROJECT_DIR$/src/components/LanguageMenu-circular.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/LanguageMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LanguageMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/MobileNavbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MobileNavbar.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="61" />
+    <option name="cachedIndexableFilesCount" value="62" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -60,61 +59,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0000007227499803" />
-      <entry key="MS500" value="1.0591657071920066" />
-      <entry key="S2" value="1.6231984878377137" />
-      <entry key="S5" value="2.6092372313185748" />
-      <entry key="S10" value="3.6917360975737625" />
-      <entry key="S30" value="5.604710813846418" />
-      <entry key="S60" value="7.780315974180152" />
-      <entry key="M2" value="12.743399070172297" />
-      <entry key="M5" value="42.032420636961795" />
-      <entry key="M10" value="102.65666173329795" />
-      <entry key="M15" value="156.11358863293012" />
-      <entry key="M30" value="281.1893776881547" />
-      <entry key="H1" value="450.6788267964948" />
-      <entry key="H2" value="701.4217313032532" />
-      <entry key="H4" value="1059.6224636235895" />
-      <entry key="D1" value="1813.415376555997" />
-      <entry key="W1" value="2031.80643941871" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000066334401683" />
+      <entry key="S2" value="1.1664095787943733" />
+      <entry key="S5" value="2.8339612127147733" />
+      <entry key="S10" value="6.129321771153221" />
+      <entry key="S30" value="15.63167007064293" />
+      <entry key="S60" value="23.856498029707545" />
+      <entry key="M2" value="33.70463360516736" />
+      <entry key="M5" value="58.55411318532479" />
+      <entry key="M10" value="109.40032711717213" />
+      <entry key="M15" value="160.91212987491568" />
+      <entry key="M30" value="291.0977272979953" />
+      <entry key="H1" value="472.56444226870786" />
+      <entry key="H2" value="734.8496933814076" />
+      <entry key="H4" value="1103.207263962824" />
+      <entry key="D1" value="1879.449100887198" />
+      <entry key="W1" value="2105.3707914816578" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.6533839586E-314" />
-      <entry key="MS500" value="1.7525674602902358E-63" />
-      <entry key="S2" value="2.0460615117705666E-16" />
-      <entry key="S5" value="5.301122462829209E-7" />
-      <entry key="S10" value="7.287531602427244E-4" />
-      <entry key="S30" value="0.09869274654154725" />
-      <entry key="S60" value="0.3936670347298153" />
-      <entry key="M2" value="0.873661407136586" />
-      <entry key="M5" value="1.8971497634499257" />
-      <entry key="M10" value="3.837866606646771" />
-      <entry key="M15" value="5.8405564155264456" />
-      <entry key="M30" value="10.96091278401778" />
-      <entry key="H1" value="17.972887420052942" />
-      <entry key="H2" value="27.60467227144018" />
-      <entry key="H4" value="41.243201520904016" />
-      <entry key="D1" value="71.34120374372311" />
-      <entry key="W1" value="80.33453800854973" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="7.10593850734516E-97" />
+      <entry key="S2" value="9.181810321934759E-25" />
+      <entry key="S5" value="2.474769191507084E-10" />
+      <entry key="S10" value="1.7769050560715756E-5" />
+      <entry key="S30" value="0.04039047003410874" />
+      <entry key="S60" value="0.3234821025867647" />
+      <entry key="M2" value="1.0249440895682072" />
+      <entry key="M5" value="2.6325421947382917" />
+      <entry key="M10" value="4.8070044041720585" />
+      <entry key="M15" value="6.8788830531402025" />
+      <entry key="M30" value="12.257235874051378" />
+      <entry key="H1" value="19.772398506538526" />
+      <entry key="H2" value="29.926027039648588" />
+      <entry key="H4" value="43.99865116908998" />
+      <entry key="D1" value="74.98487251165913" />
+      <entry key="W1" value="84.27726532595393" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.10584342135337856" />
-      <entry key="MS500" value="0.6862922030868248" />
-      <entry key="S2" value="1.4882790473895546" />
-      <entry key="S5" value="2.5382438269226877" />
-      <entry key="S10" value="3.6482576577136228" />
-      <entry key="S30" value="5.680741169372706" />
-      <entry key="S60" value="8.151801707800187" />
-      <entry key="M2" value="13.593872433676884" />
-      <entry key="M5" value="43.903746683866245" />
-      <entry key="M10" value="106.45821002764826" />
-      <entry key="M15" value="161.91228405892372" />
-      <entry key="M30" value="292.1079480695194" />
-      <entry key="H1" value="468.6174550506778" />
-      <entry key="H2" value="729.0011081635125" />
-      <entry key="H4" value="1100.8479383162526" />
-      <entry key="D1" value="1884.7519811241038" />
-      <entry key="W1" value="2112.1402543441595" />
+      <entry key="MS100" value="0.031686233743438416" />
+      <entry key="MS500" value="0.5013940219375191" />
+      <entry key="S2" value="0.9983161021758786" />
+      <entry key="S5" value="2.718007943779361" />
+      <entry key="S10" value="6.021192485285352" />
+      <entry key="S30" value="15.578315777140284" />
+      <entry key="S60" value="24.09937881881447" />
+      <entry key="M2" value="34.66480913267771" />
+      <entry key="M5" value="61.14040126262371" />
+      <entry key="M10" value="114.1650201722983" />
+      <entry key="M15" value="167.74736037040458" />
+      <entry key="M30" value="303.3120378762799" />
+      <entry key="H1" value="492.3014628522077" />
+      <entry key="H2" value="764.7493608148942" />
+      <entry key="H4" value="1147.1874354922604" />
+      <entry key="D1" value="1954.4291841038269" />
+      <entry key="W1" value="2189.6473038267623" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -308,7 +307,8 @@
       <workItem from="1781381905255" duration="608000" />
       <workItem from="1782070953186" duration="238000" />
       <workItem from="1782071522178" duration="4000" />
-      <workItem from="1782107517335" duration="5942000" />
+      <workItem from="1782107517335" duration="6042000" />
+      <workItem from="1782120817908" duration="565000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -582,14 +582,21 @@
       <option name="project" value="LOCAL" />
       <updated>1782071178194</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="added MobileNavbar.tsx">
+      <option name="closed" value="true" />
+      <created>1782113535016</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1782113535016</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed background vid again" />
     <MESSAGE value="changed background vid again again" />
     <MESSAGE value="changed background vid again again again" />
     <MESSAGE value="design refactoring" />
@@ -614,7 +621,8 @@
     <MESSAGE value="slider update" />
     <MESSAGE value="added second slider image" />
     <MESSAGE value="language menu is now in footer" />
-    <option name="LAST_COMMIT_MESSAGE" value="language menu is now in footer" />
+    <MESSAGE value="added MobileNavbar.tsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="added MobileNavbar.tsx" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,39 +1,15 @@
 'use client'
 
 import Link from "next/link";
+import LanguageMenu from "@/components/LanguageMenu";
 import {useState} from "react";
 
-interface Language {
-    code: string;
-    label: string;
-    flag: string; // URL or Emoji
-}
-
-const languages: Language[] = [
-    {code: 'de', label: 'German', flag: '🇩🇪'},
-    {code: 'en', label: 'English', flag: '🇺🇸'},
-    {code: 'dk', label: 'Danish', flag: '🇩🇰'},
-];
-
 export default function MobileNavbar() {
-    const [currentLangIndex, setCurrentLangIndex] = useState(0);
-    const [isLangOpen, setIsLangOpen] = useState(false);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-    function toggleLanguageMenu() {
-        setIsLangOpen(!isLangOpen);
-    }
-
-    const handleLanguageSwitch = (index: number) => {
-        setCurrentLangIndex(index);
-        setIsLangOpen(false);
-    }
 
     const toggleMobileMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     }
-
-    const currentLang = languages[currentLangIndex];
 
     return (
         <div
@@ -42,31 +18,8 @@ export default function MobileNavbar() {
             <div className="flex items-center justify-between p-3 px-5">
                 <img id="logo" src="/img/logo.png" alt="Logo" className="h-12 w-auto"/>
 
-                <div className="flex items-center gap-4">
-                    {/* Language Switcher */}
-                    <div className="relative">
-                        <button onClick={toggleLanguageMenu} className="cursor-pointer text-xl">
-                            {currentLang.flag}
-                        </button>
-                        {isLangOpen && (
-                            <div className="absolute right-0 bg-secondary-blue rounded-xl mt-2 p-2 z-1001 shadow-lg">
-                                <ul className="flex flex-col items-start min-w-30">
-                                    {languages.map((lang, index) => (
-                                        <li
-                                            className="w-full hover:bg-slate-700/50 rounded-lg cursor-pointer"
-                                            key={lang.code}
-                                            onClick={() => handleLanguageSwitch(index)}
-                                        >
-                                            <div className="flex items-center text-white gap-2 m-2!">
-                                                <p>{lang.flag}</p>
-                                                <p className="text-sm font-semibold">{lang.label}</p>
-                                            </div>
-                                        </li>
-                                    ))}
-                                </ul>
-                            </div>
-                        )}
-                    </div>
+                <div className={"flex items-center gap-2"}>
+                    <LanguageMenu />
 
                     {/* Hamburger Button */}
                     <button

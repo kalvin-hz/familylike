@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import LanguageMenu from "@/components/LanguageMenu";
+import LanguageMenuCircular from "@/components/LanguageMenu-circular";
 
 export default function Home() {
     return (
