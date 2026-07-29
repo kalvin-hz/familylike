@@ -34,21 +34,21 @@ export default function Page() {
                         <img src="/img/estate.png" alt="img" className="grayscale-100"/>
                         <p>
                             Estate<br/>
-                            (geplant 20.6.2026)
+                            (Is' bald soweit)
                         </p>
                     </Link>
                     <Link href="#">
                         <img src="/img/spot-nachher.png" alt="img" className="grayscale-100"/>
                         <p>
                             Revitalisierung im Ländlichen Raum<br/>
-                            (geplant 20.6.2026)
+                            (Is' bald soweit)
                         </p>
                     </Link>
                     <Link href="#">
                         <img src="/img/pai.jpg" alt="img" className="grayscale-100"/>
                         <p>
                             Professional / Administrative / Institutional<br/>
-                            (geplant 20.6.2026)
+                            (Is' bald soweit)
                         </p>
                     </Link>
                     <Link href="#">

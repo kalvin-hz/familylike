@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb4a4ca-53b7-49a4-800d-1a99c72d41e6" name="Changes" comment="added MobileNavbar.tsx">
-      <change afterPath="$PROJECT_DIR$/src/components/LanguageMenu-circular.tsx" afterDir="false" />
+    <list default="true" id="8eb4a4ca-53b7-49a4-800d-1a99c72d41e6" name="Changes" comment="added more langauges and made the LanguageMenu a component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/LanguageMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/LanguageMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/MobileNavbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/MobileNavbar.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Navbar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="62" />
+    <option name="cachedIndexableFilesCount" value="63" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -59,61 +56,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0000066334401683" />
-      <entry key="S2" value="1.1664095787943733" />
-      <entry key="S5" value="2.8339612127147733" />
-      <entry key="S10" value="6.129321771153221" />
-      <entry key="S30" value="15.63167007064293" />
-      <entry key="S60" value="23.856498029707545" />
-      <entry key="M2" value="33.70463360516736" />
-      <entry key="M5" value="58.55411318532479" />
-      <entry key="M10" value="109.40032711717213" />
-      <entry key="M15" value="160.91212987491568" />
-      <entry key="M30" value="291.0977272979953" />
-      <entry key="H1" value="472.56444226870786" />
-      <entry key="H2" value="734.8496933814076" />
-      <entry key="H4" value="1103.207263962824" />
-      <entry key="D1" value="1879.449100887198" />
-      <entry key="W1" value="2105.3707914816578" />
+      <entry key="MS100" value="1.0002310759352444" />
+      <entry key="MS500" value="1.356690437146407" />
+      <entry key="S2" value="4.059445751436037" />
+      <entry key="S5" value="8.363170524228845" />
+      <entry key="S10" value="12.493344051335384" />
+      <entry key="S30" value="22.59719674626649" />
+      <entry key="S60" value="32.80339293620342" />
+      <entry key="M2" value="45.22157078481996" />
+      <entry key="M5" value="72.26238387690569" />
+      <entry key="M10" value="123.48836526759757" />
+      <entry key="M15" value="175.11029085056342" />
+      <entry key="M30" value="305.7652458321942" />
+      <entry key="H1" value="488.05129379489273" />
+      <entry key="H2" value="751.120452826082" />
+      <entry key="H4" value="1120.160011762934" />
+      <entry key="D1" value="1897.8681346743379" />
+      <entry key="W1" value="2124.2778263302966" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="7.10593850734516E-97" />
-      <entry key="S2" value="9.181810321934759E-25" />
-      <entry key="S5" value="2.474769191507084E-10" />
-      <entry key="S10" value="1.7769050560715756E-5" />
-      <entry key="S30" value="0.04039047003410874" />
-      <entry key="S60" value="0.3234821025867647" />
-      <entry key="M2" value="1.0249440895682072" />
-      <entry key="M5" value="2.6325421947382917" />
-      <entry key="M10" value="4.8070044041720585" />
-      <entry key="M15" value="6.8788830531402025" />
-      <entry key="M30" value="12.257235874051378" />
-      <entry key="H1" value="19.772398506538526" />
-      <entry key="H2" value="29.926027039648588" />
-      <entry key="H4" value="43.99865116908998" />
-      <entry key="D1" value="74.98487251165913" />
-      <entry key="W1" value="84.27726532595393" />
+      <entry key="MS500" value="4.942946825270349E-120" />
+      <entry key="S2" value="1.4911435017507317E-30" />
+      <entry key="S5" value="1.1961100795993884E-12" />
+      <entry key="S10" value="1.2353284623040937E-6" />
+      <entry key="S30" value="0.016608037447933162" />
+      <entry key="S60" value="0.20742923296567256" />
+      <entry key="M2" value="0.8207483672548173" />
+      <entry key="M5" value="2.4086809711075508" />
+      <entry key="M10" value="4.598079654212092" />
+      <entry key="M15" value="6.678094695691336" />
+      <entry key="M30" value="12.07702226787825" />
+      <entry key="H1" value="19.62650714258445" />
+      <entry key="H2" value="29.815417486412976" />
+      <entry key="H4" value="43.91726421457567" />
+      <entry key="D1" value="74.96173733518353" />
+      <entry key="W1" value="84.27355023896637" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.031686233743438416" />
-      <entry key="MS500" value="0.5013940219375191" />
-      <entry key="S2" value="0.9983161021758786" />
-      <entry key="S5" value="2.718007943779361" />
-      <entry key="S10" value="6.021192485285352" />
-      <entry key="S30" value="15.578315777140284" />
-      <entry key="S60" value="24.09937881881447" />
-      <entry key="M2" value="34.66480913267771" />
-      <entry key="M5" value="61.14040126262371" />
-      <entry key="M10" value="114.1650201722983" />
-      <entry key="M15" value="167.74736037040458" />
-      <entry key="M30" value="303.3120378762799" />
-      <entry key="H1" value="492.3014628522077" />
-      <entry key="H2" value="764.7493608148942" />
-      <entry key="H4" value="1147.1874354922604" />
-      <entry key="D1" value="1954.4291841038269" />
-      <entry key="W1" value="2189.6473038267623" />
+      <entry key="MS100" value="0.9594888509183331" />
+      <entry key="MS500" value="1.343084641428479" />
+      <entry key="S2" value="3.982558272155536" />
+      <entry key="S5" value="8.282873628795949" />
+      <entry key="S10" value="12.429838696297379" />
+      <entry key="S30" value="22.551678866562334" />
+      <entry key="S60" value="32.94662509789618" />
+      <entry key="M2" value="45.98400801414681" />
+      <entry key="M5" value="74.62611869548005" />
+      <entry key="M10" value="128.04465196676142" />
+      <entry key="M15" value="181.7451250236611" />
+      <entry key="M30" value="317.7995319621622" />
+      <entry key="H1" value="507.64246285162886" />
+      <entry key="H2" value="780.9094974785272" />
+      <entry key="H4" value="1164.0587751791293" />
+      <entry key="D1" value="1972.8250749666054" />
+      <entry key="W1" value="2208.5506223036273" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -179,9 +176,6 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
-    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="familylike" />
       <option name="ENV_FILES" value="" />
@@ -245,6 +239,9 @@
       <option name="studyTest" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
     <configuration name="Next.js: server-side" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -259,8 +256,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
+        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
       </set>
     </attachedChunks>
   </component>
@@ -308,7 +305,8 @@
       <workItem from="1782070953186" duration="238000" />
       <workItem from="1782071522178" duration="4000" />
       <workItem from="1782107517335" duration="6042000" />
-      <workItem from="1782120817908" duration="565000" />
+      <workItem from="1782120817908" duration="632000" />
+      <workItem from="1782423564269" duration="2000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -590,14 +588,21 @@
       <option name="project" value="LOCAL" />
       <updated>1782113535016</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="added more langauges and made the LanguageMenu a component">
+      <option name="closed" value="true" />
+      <created>1782121430256</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1782121430256</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed background vid again again" />
     <MESSAGE value="changed background vid again again again" />
     <MESSAGE value="design refactoring" />
     <MESSAGE value="small overall fixes, mostly for landingpage.html" />
@@ -622,7 +627,8 @@
     <MESSAGE value="added second slider image" />
     <MESSAGE value="language menu is now in footer" />
     <MESSAGE value="added MobileNavbar.tsx" />
-    <option name="LAST_COMMIT_MESSAGE" value="added MobileNavbar.tsx" />
+    <MESSAGE value="added more langauges and made the LanguageMenu a component" />
+    <option name="LAST_COMMIT_MESSAGE" value="added more langauges and made the LanguageMenu a component" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
