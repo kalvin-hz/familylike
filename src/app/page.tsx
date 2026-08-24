@@ -28,13 +28,15 @@ export default function Home() {
                 <div className="hero">
                     <div className="hero-text">
                         <h1>
-                            Eine neue Perspektive für<br/>
-                            <span>ländliche Räume</span>
+                            Gesteuerte Besiedlung der<br/>
+                            <span>ländlichen Räume</span>
                         </h1>
                         <p>
-                            Ein strukturierter Ansatz, der einzelne Flächen in vernetzte, zukunftsfähige
-                            Lebens- und Arbeitsräume verwandelt.<br/><br/>
-                            Sozial. Gesellschaftsfähig. Nachhaltig.
+                            Die freundliche und smarte Reformation durch die Vordertür.<br/><br/>
+                            Aus der Mitte initiiert<br/>
+                            Oben angekommen<br/>
+                            Unten gewollt und gebraucht<br/><br/>
+                            Ökologisch. Sozial. Gesellschaftsfähig. Nachhaltig.
                         </p>
 
                         {/*<Link href="/besiedlung-laendlicher-raeume">*/}

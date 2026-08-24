@@ -248,17 +248,6 @@
         z-index: 1000;
         backdrop-filter: blur(6px);
     }
-
-    .nav img {
-        height: 48px;
-        width: auto;
-        display: block;
-    }
-
-    .nav img#logo {
-        margin-right: auto;
-    }
-
     .nav a {
         color: var(--color-dark-blue);
         font-family: "Open Sans", sans-serif;
@@ -271,6 +260,11 @@
     .nav a:focus {
         color: var(--color-hover);
         text-decoration: underline;
+    }
+    .nav a img {
+        height: 48px;
+        width: auto;
+        display: block;
     }
 
     /* --- Global Styles & Typography --- */

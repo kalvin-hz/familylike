@@ -7,7 +7,7 @@ import LanguageMenu from "@/components/LanguageMenu";
 export default function Navbar() {
     return (
         <div className="nav hidden! md:flex!">
-            <img id="logo" src="/img/logo.png" alt="Logo" />
+            <a href="/" className="mr-auto!"><img id="logo" src="/img/logo.png" alt="Logo" /></a>
 
             <LanguageMenu />
 
