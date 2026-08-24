@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8eb4a4ca-53b7-49a4-800d-1a99c72d41e6" name="Changes" comment="added more langauges and made the LanguageMenu a component">
+    <list default="true" id="8eb4a4ca-53b7-49a4-800d-1a99c72d41e6" name="Changes" comment="update spot site">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/besiedlung-laendlicher-raeume/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="63" />
+    <option name="cachedIndexableFilesCount" value="68" />
     <option name="fileBasedEmbeddingIndicesEnabled" value="true" />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -32,7 +31,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="nextjs-migration" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,61 +55,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.0002310759352444" />
-      <entry key="MS500" value="1.356690437146407" />
-      <entry key="S2" value="4.059445751436037" />
-      <entry key="S5" value="8.363170524228845" />
-      <entry key="S10" value="12.493344051335384" />
-      <entry key="S30" value="22.59719674626649" />
-      <entry key="S60" value="32.80339293620342" />
-      <entry key="M2" value="45.22157078481996" />
-      <entry key="M5" value="72.26238387690569" />
-      <entry key="M10" value="123.48836526759757" />
-      <entry key="M15" value="175.11029085056342" />
-      <entry key="M30" value="305.7652458321942" />
-      <entry key="H1" value="488.05129379489273" />
-      <entry key="H2" value="751.120452826082" />
-      <entry key="H4" value="1120.160011762934" />
-      <entry key="D1" value="1897.8681346743379" />
-      <entry key="W1" value="2124.2778263302966" />
+      <entry key="MS100" value="1.000278676832976" />
+      <entry key="MS500" value="1.2777992985215199" />
+      <entry key="S2" value="2.456814303222724" />
+      <entry key="S5" value="3.5239958985990527" />
+      <entry key="S10" value="4.379061136870188" />
+      <entry key="S30" value="7.304424988884542" />
+      <entry key="S60" value="11.304362675582903" />
+      <entry key="M2" value="18.212570763461713" />
+      <entry key="M5" value="35.23528277689943" />
+      <entry key="M10" value="57.59051637359162" />
+      <entry key="M15" value="76.52515323240604" />
+      <entry key="M30" value="146.09752780325098" />
+      <entry key="H1" value="313.74159719717636" />
+      <entry key="H2" value="609.3506693681599" />
+      <entry key="H4" value="1035.602067485605" />
+      <entry key="D1" value="1984.164813677646" />
+      <entry key="W1" value="2273.170110047137" />
     </decayedCancelled>
     <decayedSelected>
       <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="4.942946825270349E-120" />
-      <entry key="S2" value="1.4911435017507317E-30" />
-      <entry key="S5" value="1.1961100795993884E-12" />
-      <entry key="S10" value="1.2353284623040937E-6" />
-      <entry key="S30" value="0.016608037447933162" />
-      <entry key="S60" value="0.20742923296567256" />
-      <entry key="M2" value="0.8207483672548173" />
-      <entry key="M5" value="2.4086809711075508" />
-      <entry key="M10" value="4.598079654212092" />
-      <entry key="M15" value="6.678094695691336" />
-      <entry key="M30" value="12.07702226787825" />
-      <entry key="H1" value="19.62650714258445" />
-      <entry key="H2" value="29.815417486412976" />
-      <entry key="H4" value="43.91726421457567" />
-      <entry key="D1" value="74.96173733518353" />
-      <entry key="W1" value="84.27355023896637" />
+      <entry key="MS500" value="5.797966800073129E-201" />
+      <entry key="S2" value="8.7260747920875E-51" />
+      <entry key="S5" value="9.469511426277889E-21" />
+      <entry key="S10" value="9.731141467617199E-11" />
+      <entry key="S30" value="4.599616877359929E-4" />
+      <entry key="S60" value="0.02146866345073722" />
+      <entry key="M2" value="0.15219803562328385" />
+      <entry key="M5" value="0.6483205990861393" />
+      <entry key="M10" value="1.334986776502446" />
+      <entry key="M15" value="1.9648531788577828" />
+      <entry key="M30" value="4.5971141166817" />
+      <entry key="H1" value="11.291254324855677" />
+      <entry key="H2" value="22.87640363152118" />
+      <entry key="H4" value="39.32905077696919" />
+      <entry key="D1" value="77.01910900819885" />
+      <entry key="W1" value="88.79443620491345" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.9594888509183331" />
-      <entry key="MS500" value="1.343084641428479" />
-      <entry key="S2" value="3.982558272155536" />
-      <entry key="S5" value="8.282873628795949" />
-      <entry key="S10" value="12.429838696297379" />
-      <entry key="S30" value="22.551678866562334" />
-      <entry key="S60" value="32.94662509789618" />
-      <entry key="M2" value="45.98400801414681" />
-      <entry key="M5" value="74.62611869548005" />
-      <entry key="M10" value="128.04465196676142" />
-      <entry key="M15" value="181.7451250236611" />
-      <entry key="M30" value="317.7995319621622" />
-      <entry key="H1" value="507.64246285162886" />
-      <entry key="H2" value="780.9094974785272" />
-      <entry key="H4" value="1164.0587751791293" />
-      <entry key="D1" value="1972.8250749666054" />
-      <entry key="W1" value="2208.5506223036273" />
+      <entry key="MS100" value="0.9662036007282503" />
+      <entry key="MS500" value="1.2683613079750018" />
+      <entry key="S2" value="2.451595899283689" />
+      <entry key="S5" value="3.520312810980331" />
+      <entry key="S10" value="4.371180054289418" />
+      <entry key="S30" value="7.274444038327946" />
+      <entry key="S60" value="11.283945662718926" />
+      <entry key="M2" value="18.314533708154944" />
+      <entry key="M5" value="35.82439189273109" />
+      <entry key="M10" value="58.86488631769991" />
+      <entry key="M15" value="78.43381294689603" />
+      <entry key="M30" value="150.6476727921611" />
+      <entry key="H1" value="324.9933526334327" />
+      <entry key="H2" value="632.195820342871" />
+      <entry key="H4" value="1074.9085256918506" />
+      <entry key="D1" value="2061.177891479299" />
+      <entry key="W1" value="2361.96359122439" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -125,40 +124,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
-    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
-    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;kronk.content.tree.expanded.paths&quot;: &quot;&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/khz/IdeaProjects/familylike/public/img&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\khz\\IdeaProjects\\familylike\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.MCP Project settings loaded": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "cidr.known.project.marker": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "kronk.content.tree.expanded.paths": "",
+    "last_opened_file_path": "C:/Users/khz/IdeaProjects/familylike/public/img",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.Next.js: server-side.executor": "Run",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "/home/khz/IdeaProjects/familylike/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\khz\IdeaProjects\familylike\public\img" />
@@ -168,14 +170,17 @@
       <recent name="C:\Users\khz\IdeaProjects\familylike" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/vid" />
       <recent name="C:\Users\khz\IdeaProjects\familylike\public\img" />
       <recent name="C:\Users\khz\IdeaProjects\familylike\public\vid" />
       <recent name="C:\Users\khz\IdeaProjects\familylike\public\svg" />
       <recent name="C:\Users\khz\IdeaProjects\familylike\pages\besiedlung-laendlicher-raeume\media\img" />
-      <recent name="C:\Users\khz\IdeaProjects\familylike\media\vid" />
     </key>
   </component>
   <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="familylike" />
       <option name="ENV_FILES" value="" />
@@ -239,9 +244,6 @@
       <option name="studyTest" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
-      <method v="2" />
-    </configuration>
     <configuration name="Next.js: server-side" type="js.build_tools.npm">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
@@ -256,8 +258,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-63390994e64e-intellij.indexing.shared.core-IU-262.8665.337" />
-        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-IU-262.8665.337" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.25134.95" />
       </set>
     </attachedChunks>
   </component>
@@ -307,6 +309,7 @@
       <workItem from="1782107517335" duration="6042000" />
       <workItem from="1782120817908" duration="632000" />
       <workItem from="1782423564269" duration="2000" />
+      <workItem from="1787593228911" duration="77000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <option name="closed" value="true" />
@@ -596,14 +599,21 @@
       <option name="project" value="LOCAL" />
       <updated>1782121430256</updated>
     </task>
-    <option name="localTasksCounter" value="37" />
+    <task id="LOCAL-00037" summary="update spot site">
+      <option name="closed" value="true" />
+      <created>1787589843918</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1787589843918</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changed background vid again again again" />
     <MESSAGE value="design refactoring" />
     <MESSAGE value="small overall fixes, mostly for landingpage.html" />
     <MESSAGE value="mobile fix landingpage.html" />
@@ -628,7 +638,8 @@
     <MESSAGE value="language menu is now in footer" />
     <MESSAGE value="added MobileNavbar.tsx" />
     <MESSAGE value="added more langauges and made the LanguageMenu a component" />
-    <option name="LAST_COMMIT_MESSAGE" value="added more langauges and made the LanguageMenu a component" />
+    <MESSAGE value="update spot site" />
+    <option name="LAST_COMMIT_MESSAGE" value="update spot site" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
