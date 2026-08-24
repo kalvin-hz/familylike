@@ -34,7 +34,7 @@ export default function LanguageMenu() {
     const currentLang = languages[currentLangIndex];
 
     return (
-        <div className={"relative ml-4!"}>
+        <div className={"relative ml-4! p-2!"}>
             <button onClick={toggleLanguageMenu}>
                 {currentLang.flag}
             </button>

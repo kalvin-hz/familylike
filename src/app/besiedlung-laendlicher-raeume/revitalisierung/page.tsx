@@ -9,18 +9,17 @@ export default function Page() {
 
                 <div className="w-full block overflow-hidden">
                     <video width="100%" height="100%" controls className="block">
-                        <source src="/vid/meerkat.mp4" type="video/mp4" />
+                        <source src="/vid/Meerkat_renovates_dilapidated_building.mp4" type="video/mp4" />
                         Your Browser doesn't support Video Tags...
                     </video>
                 </div>
 
 
-                <div className="container">
-                    <h1>Hey du Farm - Mach was aus dir</h1>
+                <div className="container text-center">
+                    <h1>Aus Objekt wird Projekt</h1>
                     <p>Problem behafteter Standort? Keine gescheite Idee für was Neues?</p>
-                    <p>Dann prüf’ doch mal deine Möglichkeiten - Schaut gut aus? Dann interessieren wir uns für dich -
-                        nimm gerne
-                        Kontakt zu uns auf Was dann passieren kann</p>
+                    <p>Dann prüf doch mal deine Möglichkeiten! Wir interessieren wir uns für dich</p>
+                    <br/>
                     <button>Kontaktieren</button>
                 </div>
 
@@ -60,10 +59,10 @@ export default function Page() {
                         </div>
 
                         <div className="comparison-card with-us">
-                            <h3>On Top: Der Weg mit uns</h3>
+                            <h3>⭐ Der Weg mit uns ⭐</h3>
                             <p>Aus Deinen Wünschen werden Ziele. Ein marktfähiges Flächenkonzept ist das Zentrum Deiner
                                 Planung. Mit
-                                unserer Kompetenz und unseren Business-Netzwerken verwandeln wir Dein Vorhaben in einen
+                                unsereren Kompetenzen und unserem Business-Netzwerken verwandeln wir Dein Vorhaben in einen
                                 vollen
                                 Erfolg.</p>
                         </div>

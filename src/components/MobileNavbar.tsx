@@ -13,7 +13,7 @@ export default function MobileNavbar() {
 
     return (
         <div
-            className="md:hidden sticky top-0 z-1000 w-full bg-[whitesmoke] border-b border-border-light backdrop-blur-[6px]">
+            className="md:hidden sticky top-0 z-1000 w-full bg-white">
             {/* Header Area */}
             <div className="flex items-center justify-between p-3 px-5">
                 <img id="logo" src="/img/logo.png" alt="Logo" className="h-12 w-auto"/>
@@ -24,7 +24,7 @@ export default function MobileNavbar() {
                     {/* Hamburger Button */}
                     <button
                         onClick={toggleMobileMenu}
-                        className="flex flex-col justify-center items-center gap-1.5 w-max h-max cursor-pointer focus:outline-none"
+                        className="flex flex-col justify-center items-center gap-1.5 w-16 h-12 cursor-pointer focus:outline-none"
                         aria-label="Toggle menu"
                     >
                         <span
@@ -39,25 +39,25 @@ export default function MobileNavbar() {
 
             {/* Mobile Navigation Links */}
             {isMenuOpen && (
-                <div className="flex flex-col bg-[whitesmoke] px-5 pb-5 pt-2 border-t border-border-light">
+                <div className="flex flex-col px-3! py-2! ml-auto! text-end w-fit">
                     <Link
                         href="/"
                         onClick={() => setIsMenuOpen(false)}
-                        className="py-3 text-dark-blue hover:text-hover font-semibold text-lg border-b border-gray-100"
+                        className="pb-2! text-dark-blue hover:text-hover font-semibold text-2xl"
                     >
                         Home
                     </Link>
                     <Link
                         href="/team"
                         onClick={() => setIsMenuOpen(false)}
-                        className="py-3 text-dark-blue hover:text-hover font-semibold text-lg border-b border-gray-100"
+                        className="pb-2! text-dark-blue hover:text-hover font-semibold text-2xl"
                     >
                         Team
                     </Link>
                     <Link
                         href="/contact"
                         onClick={() => setIsMenuOpen(false)}
-                        className="py-3 text-dark-blue hover:text-hover font-semibold text-lg"
+                        className="pb-2! text-dark-blue hover:text-hover font-semibold text-2xl"
                     >
                         Contact
                     </Link>

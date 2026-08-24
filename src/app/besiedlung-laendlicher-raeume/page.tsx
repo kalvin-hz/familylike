@@ -37,7 +37,7 @@ export default function Page() {
                             (Is' bald soweit)
                         </p>
                     </Link>
-                    <Link href="#">
+                    <Link href="/besiedlung-laendlicher-raeume/revitalisierung">
                         <img src="/img/spot-nachher.png" alt="img" className="grayscale-100"/>
                         <p>
                             Revitalisierung im Ländlichen Raum<br/>
