@@ -25,8 +25,40 @@ export default function Page() {
 
                 <div className={"w-full flex justify-center mt-8! mb-4!"}>
                     <ImageSlider
+                        beforeImage={"/img/bartels-vorher.png"}
+                        afterImage={"/img/bartels-nachher.png"}
+                        beforeAlt={"before"}
+                        afterAlt={"after"}
+                    />
+                </div>
+                <div className={"w-full flex justify-center mt-8! mb-4!"}>
+                    <ImageSlider
+                        beforeImage={"/img/nebengebaeude-vorher.png"}
+                        afterImage={"/img/nebengebaeude-nachher-tageslicht.png"}
+                        beforeAlt={"before"}
+                        afterAlt={"after"}
+                    />
+                </div>
+                <div className={"w-full flex justify-center mt-8! mb-4!"}>
+                    <ImageSlider
+                        beforeImage={"/img/roust-vorher.png"}
+                        afterImage={"/img/roust-nachher.png"}
+                        beforeAlt={"before"}
+                        afterAlt={"after"}
+                    />
+                </div>
+                <div className={"w-full flex justify-center mt-8! mb-4!"}>
+                    <ImageSlider
                         beforeImage={"/img/spot-vorher.jpg"}
                         afterImage={"/img/spot-nachher.png"}
+                        beforeAlt={"before"}
+                        afterAlt={"after"}
+                    />
+                </div>
+                <div className={"w-full flex justify-center mt-8! mb-4!"}>
+                    <ImageSlider
+                        beforeImage={"/img/stalltrakt-vorher.png"}
+                        afterImage={"/img/stalltrakt-nachher.png"}
                         beforeAlt={"before"}
                         afterAlt={"after"}
                     />
